@@ -1,0 +1,777 @@
+{
+    "nodes": [
+        {
+            "id": "1",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/마늘모양병.jpg",
+            "label": "<br>마늘모양병<br>",
+            "title": "https://www.museum.go.kr/site/main/relic/search/view?relicId=4657",
+            "hidden": false
+        },
+        {
+            "id": "2",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/역상감(예시).jpeg",
+            "label": "금속기", 
+            "hidden": true
+        },
+        {
+            "id": "3",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/고려청자(대표).png",
+            "label": "아주 옛날부터 제작된 형태의 도자기",
+            "hidden": true
+        },
+        {
+            "id": "4",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/학과 구름무늬.jpg",
+            "label": "구연부, 몸통 상단, 몸통 하단, 굽을 \n각각 따로 주조하여 땜으로 이어 붙임",
+            "hidden": true
+        },
+        {
+            "id": "5",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/원(위치).png",
+            "label": "원",
+            "hidden": true
+        },
+        {
+            "id": "6",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/학무늬 완.jpg",
+            "label": "높이 24cm",
+            "hidden": true
+        },
+        {
+            "id": "7",
+            "shape": "box",
+            "image": "../static/imgs1/학무늬베개/기본.png",
+            "label": "진나라부터 제작되었고, 송나라도 따라서\n 제작이 시작되어 원나라까지 이어졌습니다.",
+            "hidden": true
+        },
+        {
+            "id": "8",
+            "shape": "box",
+            "image": "../static/imgs1/학무늬베개/기본.png",
+            "label": "산형구병\n\n신안해저선에서 발견된 산형구병은 \n마늘 모양 병을 뜻합니다.",
+            "hidden": true
+        },
+        {
+            "id": "9",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/국화.jpg",
+            "label": "이 도자기는 1980년에 발견되었습니다.",
+            "hidden": true
+        },
+        {
+            "id": "10",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/넝쿨무늬.jpg",
+            "label": "신안6642",
+            "hidden": true
+        },
+        {
+            "id": "11",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/마늘 모양.jpg",
+            "label": "병 입구는 육쪽마늘의 형태, 굽이 2단으로 구성,\n 아래 부분은 삼각형 문양 틀",
+            "hidden": true
+        },
+        {
+            "id": "12",
+            "shape": "box",
+            "image": "../static/imgs1/학무늬베개/기본.png",
+            "label": "굽의 안쪽에는 '자손영보용지'\n 여섯 글자를 전서로 새겼습니다.",
+            "hidden": true
+        },
+        {
+            "id": "13",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/신안해저선1.jpeg",
+            "label": "이 유물은 신안에서 발견되었습니다.",
+            "hidden": true
+        },
+        {
+            "id": "14",
+            "shape": "box",
+            "image": "../static/imgs1/학무늬베개/기본.png",
+            "label": "신안해저선\n\n신안해저선은 1975년 한 어부가 고기잡이 중에 \n도자기 6점에 그물에 걸려나와 알려지게 된 유적입니다.\n 이듬해 1월 도자기를 신안군청에 신고했고,\n 그 해 10월부터 발굴이 시작됐습니다.",
+            "hidden": true
+        },
+        {
+            "id": "16",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/매미1.jpg",
+            "label": "매미무늬(아래 부분, 굽)",
+            "hidden": true
+        },
+        {
+            "id": "17",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/도철무늬.png",
+            "label": "도철무늬(몸통의 상단)",
+            "hidden": true
+        },
+        {
+            "id": "18",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/꽃과 운기무늬.jpg",
+            "label": "꽃과 운기무늬(하단)",
+            "hidden": true
+        },
+        {
+            "id": "19",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/육각무늬.jpg",
+            "label": "육각무늬(하단)",
+            "hidden": true
+        },
+        {
+            "id": "20",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/번개무늬.jpg",
+            "label": "번개무늬(몸통의 상단, 굽)",
+            "hidden": true
+        },
+        {
+            "id": "21",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/종류.png",
+            "label": "",
+            "hidden": false
+        },
+        {
+            "id": "22",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/특징.png",
+            "label": "",
+            "hidden": false
+        },
+        {
+            "id": "23",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/제조 방식.png",
+            "label": "",
+            "hidden": false
+        },
+        {
+            "id": "24",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/제작 시기.png",
+            "label": "",
+            "hidden": false
+        },
+        {
+            "id": "25",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/크기.png",
+            "label": "",
+            "hidden": false
+        },
+        {
+            "id": "26",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/가치.png",
+            "label": "",
+            "hidden": false
+        },
+        {
+            "id": "27",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/다른 이름.png",
+            "label": "",
+            "hidden": false
+        },
+        {
+            "id": "28",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/입수 시기.png",
+            "label": "",
+            "hidden": false
+        },
+        {
+            "id": "29",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/소장품 번호.png",
+            "label": "",
+            "hidden": false
+        },
+        {
+            "id": "30",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/외형.png",
+            "label": "",
+            "hidden": false
+        },
+        {
+            "id": "31",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/입수 장소.png",
+            "label": "",
+            "hidden": false
+        },
+        {
+            "id": "34",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/기본.png",
+            "label": "같은 장소에서 입수된 다른 유물",
+            "hidden": true
+        },
+        {
+            "id": "35",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/기본.png",
+            "label": "틀",
+            "hidden": true
+        },
+        {
+            "id": "36",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/기본.png",
+            "label": "굽",
+            "hidden": true
+        },
+        {
+            "id": "37",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/기본.png",
+            "label": "육쪽 마늘",
+            "hidden": true
+        },
+        {
+            "id": "38",
+            "shape": "box",
+            "image": "../static/imgs1/학무늬베개/기본.png",
+            "label": "자손영보용지\n\n자손영보용지는 자자손손 영원히 \n 보관하며 사용하라는 의미입니다.",
+            "hidden": true
+        },
+        {
+            "id": "40",
+            "shape": "box",
+            "image": "../static/imgs1/학무늬베개/기본.png",
+            "label": "진나라\n\n진나라는 통일 왕조인 서진과 남북조 시대의 남조 \n 왕조 중 하나인 동진으로 이루어진 왕조입니다.\n 춘추오패의 하나로, 진나라의 멸망은 춘추시대의 \n막을 내리는 사건 중 하나로 평가 받고 있습니다.",
+            "hidden": true
+        },
+        {
+            "id": "41",
+            "shape": "box",
+            "image": "../static/imgs1/학무늬베개/기본.png",
+            "label": "송나라\n\n송나라는 960년 조광윤이 개봉(카이펑)에 수도를 \n만들어 세운 나라입니다. 송은 요, 서하, 북쪽에\n 있는 금나라와 패권을 다투며 끊임없는 갈등을 \n겪다가 결국 몽골족이 세운 원나라에 의하여 \n멸망했습니다.",
+            "hidden": true
+        },
+        {
+            "id": "42",
+            "shape": "box",
+            "image": "../static/imgs1/학무늬베개/기본.png",
+            "label": "원나라\n\n원나라는 13세기 중반부터 14세기 중반에 이르는 \n약 1세기 사이, 중국 본토를 중심으로\n 거의 동아시아 전역을 지배한 몽골족의\n 왕국입니다.",
+            "hidden": true
+        },
+        {
+            "id": "44",
+            "shape": "circularImage",
+            "image": "",
+            "label": "육각 무늬는 육각형 무늬를 뜻하며,\n 귀갑문이라고 불립니다. \n거북 등의 무늬를 뜻하며,\n 장수의 의미를 가지고 있습니다.",
+            "hidden": true
+        },
+        {
+            "id": "45",
+            "shape": "circularImage",
+            "image": "",
+            "label": "운기무늬는 구름 모양의 장식문양,\n 구름 무늬를 뜻 합니다.",
+            "hidden": true
+        },
+        {
+            "id": "46",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/무늬.png",
+            "label": "",
+            "hidden": false
+        },
+        {
+            "id": "47",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/학무늬베개.jpg",
+            "label": "학무늬 베개",
+            "hidden": true
+        },
+        {
+            "id": "48",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/검은점무늬항아리.jpg",
+            "label": "검은점무늬 항아리",
+            "hidden": true
+        },
+        {
+            "id": "49",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/물소모양연적.jpg",
+            "label": "물소모양 연적",
+            "hidden": true
+        },
+        {
+            "id": "50",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/사자모양향로.jpg",
+            "label": "사자모양 향로",
+            "hidden": true
+        },
+        {
+            "id": "51",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/연꽃물고기무늬완.jpg",
+            "label": "연꽃,물고기무늬 완",
+            "hidden": true
+        },
+        {
+            "id": "52",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/용무늬매병.jpg",
+            "label": "용무늬 매병",
+            "hidden": true
+        },
+        {
+            "id": "53",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/주전자.jpg",
+            "label": "주전자",
+            "hidden": true
+        },
+        {
+            "id": "54",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/청자첩화국화무늬큰화병.jpg",
+            "label": "청자첩화국화무늬큰화병",
+            "hidden": true
+        },
+        {
+            "id": "55",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/흑유완.jpg",
+            "label": "흑유 완",
+            "hidden": true
+        },
+        {
+            "id": "56",
+            "shape": "box",
+            "image": "",
+            "label": "어떤 물건을 받치거나 버티거나 끼우거나 \n  팽팽히 켕기게 하기 위해,  \n 네모나게 테두리나 뼈대를 짜 놓은 물건을 말합니다.",
+            "hidden": true
+        },
+        {
+            "id": "57",
+            "shape": "box",
+            "image": "",
+            "label": "도자기의 굽은 도자기의 바닥과 이어져 있는 \n  도자기를 받칠수있도록 만들어진 부분입니다.",
+            "hidden": true
+        },
+        {
+            "id": "58",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/22222222.jpeg",
+            "label": "육쪽 마늘은 여섯 조각의 마늘을 뜻합니다.",
+            "hidden": true
+        },
+        {
+            "id": "62",
+            "shape": "box",
+            "image": "",
+            "label": "원나라는 13세기 중반부터 14세기 중반에 이르는 \n약 1세기 사이, 중국 본토를 중심으로 거의\n 동아시아 전역을 지배한 몽골족의 왕국입니다.",
+            "hidden": true
+        },
+        {
+            "id": "63",
+            "shape": "circularImage",
+            "image": "../static/imgs1/학무늬베개/기본.png",
+            "label": "원 때에 제작된 다른 유물",
+            "hidden": true
+        },
+        {
+            "id": "64",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/마늘모양병.jpg",
+            "label": "마늘모양 병",
+            "hidden": true
+        },
+        {
+            "id": "65",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/검은점무늬항아리.jpg",
+            "label": "검은점무늬 항아리",
+            "hidden": true
+        },
+        {
+            "id": "66",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/물소모양연적.jpg",
+            "label": "물소모양 연적",
+            "hidden": true
+        },
+        {
+            "id": "67",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/연꽃물고기무늬완.jpg",
+            "label": "연꽃,물고기무늬 완",
+            "hidden": true
+        },
+        {
+            "id": "68",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/용무늬매병.jpg",
+            "label": "용무늬 매병",
+            "hidden": true
+        },
+        {
+            "id": "69",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/주전자.jpg",
+            "label": "주전자",
+            "hidden": true
+        },
+        {
+            "id": "70",
+            "shape": "image",
+            "image": "../static/imgs1/학무늬베개/청자첩화국화무늬큰화병.jpg",
+            "label": "청자첩화국화무늬큰화병",
+            "hidden": true
+        }
+       
+    ],
+    "links": [
+        {
+            "from": "1",
+            "to": "21",
+            "hidden": false
+        },
+        {
+            "from": "21",
+            "to": "2",
+            "hidden": false
+        },
+        {
+            "from": "1",
+            "to": "22",
+            "hidden": false
+        },
+        {
+            "from": "22",
+            "to": "3",
+            "hidden": false
+        },
+        {
+            "from": "1",
+            "to": "23",
+            "hidden": false
+        },
+        {
+            "from": "23",
+            "to": "4",
+            "hidden": false
+        },
+        {
+            "from": "1",
+            "to": "24",
+            "hidden": false
+        },
+        {
+            "from": "24",
+            "to": "5",
+            "hidden": false
+        },
+        {
+            "from": "1",
+            "to": "25",
+            "hidden": false
+        },
+        {
+            "from": "25",
+            "to": "6",
+            "hidden": false
+        },
+        {
+            "from": "1",
+            "to": "26",
+            "hidden": false
+        },
+        {
+            "from": "26",
+            "to": "7",
+            "hidden": false
+        },
+        {
+            "from": "1",
+            "to": "27",
+            "hidden": false
+        },
+        {
+            "from": "27",
+            "to": "8",
+            "hidden": false
+        },
+        {
+            "from": "1",
+            "to": "28",
+            "hidden": false
+        },
+        {
+            "from": "28",
+            "to": "9",
+            "hidden": false
+        },
+        {
+            "from": "1",
+            "to": "29",
+            "hidden": false
+        },
+        {
+            "from": "29",
+            "to": "10",
+            "hidden": false
+        },
+        {
+            "from": "1",
+            "to": "30",
+            "hidden": false
+        },
+        {
+            "from": "30",
+            "to": "11",
+            "hidden": false
+        },
+        {
+            "from": "30",
+            "to": "12",
+            "hidden": false
+        },
+        {
+            "from": "1",
+            "to": "31",
+            "hidden": false
+        },
+        {
+            "from": "31",
+            "to": "13",
+            "hidden": false
+        },
+        {
+            "from": "31",
+            "to": "14",
+            "hidden": false
+        },
+        {
+            "from": "46",
+            "to": "16",
+            "hidden": false
+        },
+        {
+            "from": "46",
+            "to": "17",
+            "hidden": false
+        },
+        {
+            "from": "46",
+            "to": "18",
+            "hidden": false
+        },
+        {
+            "from": "46",
+            "to": "19",
+            "hidden": false
+        },
+        {
+            "from": "46",
+            "to": "20",
+            "hidden": false
+        },
+        {
+            "from": "14",
+            "to": "33",
+            "hidden": false
+        },
+        {
+            "from": "13",
+            "to": "34",
+            "hidden": false
+        },
+        {
+            "from": "11",
+            "to": "35",
+            "hidden": false
+        },
+        {
+            "from": "11",
+            "to": "36",
+            "hidden": false
+        },
+        {
+            "from": "11",
+            "to": "37",
+            "hidden": false
+        },
+        {
+            "from": "12",
+            "to": "38",
+            "hidden": false
+        },
+        {
+            "from": "8",
+            "to": "39",
+            "hidden": false
+        },
+        {
+            "from": "7",
+            "to": "40",
+            "hidden": false
+        },
+        {
+            "from": "7",
+            "to": "41",
+            "hidden": false
+        },
+        {
+            "from": "7",
+            "to": "42",
+            "hidden": false
+        },
+        {
+            "from": "42",
+            "to": "43",
+            "hidden": false
+        },
+        {
+            "from": "19",
+            "to": "44",
+            "hidden": false
+        },
+        {
+            "from": "18",
+            "to": "45",
+            "hidden": false
+        },
+        {
+            "from": "1",
+            "to": "46",
+            "hidden": false
+        },
+        {
+            "from": "34",
+            "to": "47",
+            "hidden": false
+        },
+        {
+            "from": "34",
+            "to": "48",
+            "hidden": false
+        },
+        {
+            "from": "34",
+            "to": "49",
+            "hidden": false
+        },
+        {
+            "from": "34",
+            "to": "50",
+            "hidden": false
+        },
+        {
+            "from": "34",
+            "to": "51",
+            "hidden": false
+        },
+        {
+            "from": "34",
+            "to": "52",
+            "hidden": false
+        },
+        {
+            "from": "34",
+            "to": "53",
+            "hidden": false
+        },
+        {
+            "from": "34",
+            "to": "54",
+            "hidden": false
+        },
+        {
+            "from": "34",
+            "to": "55",
+            "hidden": false
+        },
+        {
+            "from": "35",
+            "to": "56",
+            "hidden": false
+        },
+        {
+            "from": "36",
+            "to": "57",
+            "hidden": false
+        },
+        {
+            "from": "37",
+            "to": "58",
+            "hidden": false
+        },
+        {
+            "from": "38",
+            "to": "59",
+            "hidden": false
+        },
+        {
+            "from": "40",
+            "to": "60",
+            "hidden": false
+        },
+        {
+            "from": "41",
+            "to": "61",
+            "hidden": false
+        },
+        {
+            "from": "5",
+            "to": "62",
+            "hidden": false
+        },
+        {
+            "from": "62",
+            "to": "63",
+            "hidden": false
+        },
+        {
+            "from": "63",
+            "to": "64",
+            "hidden": false
+        },
+        {
+            "from": "63",
+            "to": "65",
+            "hidden": false
+        },
+        {
+            "from": "63",
+            "to": "66",
+            "hidden": false
+        },
+        {
+            "from": "63",
+            "to": "67",
+            "hidden": false
+        },
+        {
+            "from": "63",
+            "to": "68",
+            "hidden": false
+        },
+        {
+            "from": "63",
+            "to": "69",
+            "hidden": false
+        },
+        {
+            "from": "63",
+            "to": "70",
+            "hidden": false
+        }
+    ]
+}

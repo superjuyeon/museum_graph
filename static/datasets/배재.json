@@ -10,939 +10,1105 @@
 		},
 		{
 			"id": "2",
-			"shape": "box",
+			"shape": "circle",
 			"label": "시작",
-			"hidden": false
+			"hidden": false,
+			"margin": 30,
+			"color": { "border": "#fa9511",  "background": "#fdd9ab" },
+			"borderWidth": 5
+
 		},
 		{
 			"id": "3",
-			"shape": "box",
+			"shape": "circle",
 			"label": "설립자",
-			"hidden": true
+			"hidden": true,
+			"margin": 30,
+			"color": { "border": "#fa9511",  "background": "#fdd9ab" },
+			"borderWidth": 5
 		},
 		{
 			"id": "4",
 			"shape": "image",
 			"image": "../static/imgs/헨리 게르하트 아펜잘러.jpg",
 			"label": "헨리 게르하트 아펜잘러",
-			"hidden": true
+			"hidden": true,
+			"margin": 30,
+			"color": { "border": "#fa9511",  "background": "#fdd9ab" },
+			"borderWidth": 5
 		},
 		{
 			"id": "5",
 			"shape": "image",
 			"image": "../static/imgs/벧엘교회.jpg",
 			"label": "벧엘교회",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "6",
 			"shape": "box",
 			"label": "한국 최초의 감리교회",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "7",
 			"shape": "image",
 			"image": "../static/imgs/헨리 게르하트 아펜젤러의 친필일기.png",
 			"label": "헨리 게르하트 아펜젤러의 \n 친필 일기",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "8",
 			"shape": "box",
 			"label": "고종에게 올린 진정서",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "9",
 			"shape": "box",
 			"label": "이승만과 주고받은 서신",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "10",
 			"shape": "box",
 			"label": "한국 생활",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "11",
-			"shape": "box",
+			"shape": "circle",
 			"label": "가족",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "12",
 			"shape": "image",
 			"image": "../static/imgs/헨리 다지 아펜잘러.jpg",
 			"label": "아들 헨리 다지 아펜잘러",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "13",
 			"shape": "box",
 			"label": "﻿1889년 11월 6일 \n서울 서대문구 정동 23번지에서 태어남",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "14",
 			"shape": "box",
 			"label": "노블 선교사의 맏딸 루스 노블과 결혼하여 1917년 내한",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "15",
 			"shape": "box",
 			"label": "﻿1920년 배재학당 교장 취임, \n  20년동안 일함 ",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "16",
 			"shape": "box",
 			"label": "﻿1940년 미국으로 돌아갔다가  \n 1950년 6.25 전쟁때  \n 한국사회 복구를 위해  \n 다시 한국으로 돌아옴",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "17",
 			"shape": "box",
 			"label": "﻿1952년 11월  \n 배재학교 재단 이사장으로 활동하던 중 \n  건강 악화로 치료를 위해  \n 미국으로 돌아감",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "18",
 			"shape": "box",
 			"label": "﻿1953년 12월 1일 64세로 별세",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "19",
 			"shape": "box",
 			"label": "﻿\"나의 뼈를 나의 고국이요 \n 사랑인 한국 땅에 묻어달라\" \n라는 유언에 따라 1954년 10월 18일\n 화장된 유골을  \n한국 양화진 제 1묘역에 안장",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "20",
 			"shape": "image",
 			"image": "../static/imgs/헨리 다지 아펜잘러가 쓰던 책상과 타자기.jpg",
 			"label": "﻿헨리 다지 아펜잘러가 쓰던 \n책상과 타자기",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "21",
 			"shape": "image",
 			"image": "../static/imgs/앨리스 레베카 아펜잘러.jpg",
 			"label": "﻿딸 앨리스 레베카 아펜잘러",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "22",
 			"shape": "box",
 			"label": "﻿배재학당 교사,\n 이화여대 초대학장",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "23",
 			"shape": "box",
 			"label": "여성 교육 집중",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "24",
 			"shape": "box",
 			"label": "﻿미국 북감리회에서 파견한 \n첫 선교사",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "25",
-			"shape": "box",
+			"shape": "circle",
 			"label": "﻿생애",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "26",
 			"shape": "box",
 			"label": "﻿1882년 프랭클린 마셜 대학 졸업,\n 드루 신학교 진학",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "27",
 			"shape": "box",
 			"label": "﻿1884년 아내 엘라 다지와 결혼",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "28",
 			"shape": "box",
 			"label": "﻿1885년 7월 한국 정동 도착",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "29",
 			"shape": "box",
 			"label": "﻿1887년, 1888년 헌트,\n 언더우드와 전도 여행",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "30",
 			"shape": "box",
 			"label": "﻿서울-송도-평양,\n 원주-대구-부산-해주 순으로 여행",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "31",
 			"shape": "box",
 			"label": "﻿평양에서 기생문화 비판",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "32",
 			"shape": "box",
 			"label": "﻿1902.06.11 성서 번역자회의에\n 참석하러 가던 중  \n배가 어청도 부근을 지날때 배가 침몰",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "33",
 			"shape": "box",
 			"label": "﻿사람을 구하기 위해서 \n침몰하는 배의 선실로\n 뛰어들어갔다가 사망",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "34",
 			"shape": "box",
 			"label": "﻿희생정신은 한국 기독교 정신의 바탕",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "35",
-			"shape": "box",
-			"label": "설립 목적 및 학당훈",
-			"hidden": true
+			"shape": "circle",
+			"label": "설립 목적 \n · 학당훈",
+			"hidden": true,
+			"margin": 30,
+			"color": { "border": "#fa9511",  "background": "#fdd9ab" },
+			"borderWidth": 5
 		},
 		{
 			"id": "36",
 			"shape": "box",
 			"label": "\"자유 교육을 받은 사람을\n 내보내려는 것\"",
-			"hidden": true
+			"hidden": true,
+			"margin": 30,
+			"color": { "border": "#fa9511",  "background": "#fdd9ab" },
+			"borderWidth": 5
 		},
 		{
 			"id": "37",
 			"shape": "box",
 			"label": "\"욕위대자 당위인역\"",
-			"hidden": true
+			"hidden": true,
+			"margin": 30,
+			"color": { "border": "#fa9511",  "background": "#fdd9ab" },
+			"borderWidth": 5
 		},
 		{
 			"id": "38",
 			"shape": "box",
 			"label": "크게 되려는 사람은\n 마땅히 남에게 봉사하는 사람이 되어야 한다.",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "39",
 			"shape": "box",
 			"label": "통역관 양성학교의 통념을 타파",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "40",
-			"shape": "box",
+			"shape": "circle",
 			"label": "설립연도",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "41",
 			"shape": "box",
 			"label": "1885년",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "42",
-			"shape": "box",
+			"shape": "circle",
 			"label": "위치",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "43",
-			"shape": "box",
+			"shape": "circle",
 			"label": "정동",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "44",
 			"shape": "box",
 			"label": "조선시대 태조의 계비\n 신덕왕후 묘 정릉에서\n 비롯된 이름",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "45",
 			"shape": "image",
 			"image": "../static/imgs/question.png",
 			"label": "조선시대 태조의 \n계비 신덕왕후 묘 정릉",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "46",
 			"shape": "image",
 			"image": "../static/imgs/여러 외국 공관들, 배재학당, 이화학당.jpg",
 			"label": "여러 외국 공관들,\n 배재학당, 이화학당",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "47",
 			"shape": "box",
 			"label": "﻿1883년 미국공사관을 시작으로 이후  \n러시아, 영국, 프랑스, 독일 등\n 각국 공사관들이 들어섬",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "48",
 			"shape": "box",
 			"label": "﻿배재학당, 이화학당의 근대학교들과   \n정동제일교회, 영국성공회교회, 새문안교회 등의  \n서양 선교사들이 세운 교회가 \n우리나라 최초로 들어옴",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "49",
 			"shape": "box",
 			"label": "﻿이국적 경관을 형성",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "50",
 			"shape": "box",
 			"label": "﻿용광로처럼 새로운 문화가\n 분출되는 곳",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "51",
 			"shape": "box",
 			"label": "﻿각국 외교 중심가, 선교활동의 근거지,\n 신학문의 발상지, 근대문물의 전파지",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "52",
 			"shape": "box",
 			"label": "﻿고종이 1897년 2월 경운궁으로 환궁한 후\n 8월에 연호를 광무로 고치고  \n9월에 환구단을 세우고,  \n1897년 10월 12일 황제 즉위식을\n 올림으로써 대한제국 선포",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "53",
-			"shape": "box",
+			"shape": "circle",
 			"label": "﻿독립운동",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "54",
 			"shape": "box",
 			"label": "﻿1919년 1월 21일 덕수궁 함녕전에서의\n 고종의 서거",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "55",
 			"shape": "box",
 			"label": "﻿3.1운동의 기폭제",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "56",
 			"shape": "box",
 			"label": "﻿일본의 압박을 벗어나고자 했으며  \n강제 퇴위 이후에도\n 덕수궁에 기거했던 고종에게  \n정동은 \"외세로부터 벗어나 독립에 대한 염원을 \n구현하려 했던 곳\"",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "57",
 			"shape": "box",
 			"label": "﻿이후 정동은 이화학당의 유관순,\n 배재학당의 지청천을 배출하는 등  \n독립운동의 산실이었음",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "58",
 			"shape": "image",
 			"image": "../static/imgs/현판.jpg",
 			"label": "현판",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "59",
 			"shape": "box",
 			"label": "﻿1887.06.08. \n김윤식 통하여 고종 현판 하사",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "60",
 			"shape": "box",
 			"label": "﻿배재학당 : 유용한 인재를 기르고 배우는 집",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "61",
 			"shape": "box",
 			"label": "﻿명필 정학교 작성",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "62",
-			"shape": "box",
+			"shape": "circle",
 			"label": "교육",
-			"hidden": false
+			"hidden": false,
+			"margin": 30
 		},
 		{
 			"id": "63",
-			"shape": "box",
+			"shape": "circle",
 			"label": "가르친것",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "64",
-			"shape": "box",
+			"shape": "circle",
 			"label": "과목",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "65",
 			"shape": "box",
 			"label": "﻿생리학, 화학, 세계사, \n기리, 연극, 영어, 한문,  \n인문, 수학, 과학, 역사, 세계지리,\n 체육, 음악, 미술, 의학",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "66",
 			"shape": "box",
 			"label": "﻿전인 교육",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "67",
 			"shape": "box",
 			"label": "﻿학생들은 주체적이고\n 다양한 활동을 전개, \n새로운 시대를 이끌어 나갈\n 주역으로 성장",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "68",
 			"shape": "image",
 			"image": "../static/imgs/음악교육(배재학당 피아노).jpg",
 			"label": "﻿음악교육(배재학당 피아노)",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "69",
 			"shape": "box",
 			"label": "﻿독일 라이프치히의 블뤼트니사에서 제작",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "70",
 			"shape": "box",
 			"label": "﻿헨리 다지 아펜젤러가 직접 가져옴",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "71",
 			"shape": "box",
 			"label": "﻿배재학당 강당에서 연주됨",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "72",
 			"shape": "box",
 			"label": "﻿1911년 것으로 추정",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "73",
 			"shape": "box",
 			"label": "﻿국내 현존하는\n 가장 오래된 연주용 피아노",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "74",
 			"shape": "box",
 			"label": "﻿2011년 등록 문화재",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "75",
 			"shape": "box",
 			"label": "정치 교육",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "76",
 			"shape": "box",
 			"label": "협성회",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "77",
 			"shape": "image",
 			"image": "../static/imgs/교육자(서재필, 윤채호 박사).png",
 			"label": "﻿교육자(서재필, 윤치호 박사)",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "78",
 			"shape": "box",
 			"label": "﻿토론, 연설 교육",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "79",
 			"shape": "box",
 			"label": "﻿불안정한 정치상황에 \n능동적으로 대처할 수 있는\n 인재 육성",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "80",
 			"shape": "box",
 			"label": "﻿회의 진행법 교육",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "81",
 			"shape": "box",
 			"label": "﻿국회에 해당하는 중추원을 두어\n 대의원을 양성",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "82",
 			"shape": "box",
 			"label": "﻿일반 백성들에게 가두연설(국민운동)",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "83",
 			"shape": "box",
 			"label": "﻿인쇄소",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "84",
 			"shape": "image",
 			"image": "../static/imgs/독립신문, 협성회보, 매일신문 사진.png",
 			"label": "﻿독립신문, 협성회보, 매일신문 사진",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "85",
 			"shape": "image",
 			"image": "../static/imgs/천로역정 목판과 영인본.png",
 			"label": "﻿천로역정 목판과 영인본",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "86",
 			"shape": "box",
 			"label": "﻿종교 소설",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "87",
 			"shape": "box",
 			"label": "﻿영국 종교 작가 존 번난이 지음",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "88",
 			"shape": "box",
 			"label": "﻿1628~1688",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "89",
 			"shape": "box",
 			"label": "﻿선교사 게일에 의해 국역",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "90",
 			"shape": "box",
 			"label": "﻿1896.04.07\n 배재학당 학생들이 순한글로 발간",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "91",
 			"shape": "box",
 			"label": "﻿성경 번역, 잡지와 서적 출판",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "92",
 			"shape": "box",
 			"label": "﻿한국 출판, 인쇄문화 발전 이바지",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "93",
 			"shape": "box",
 			"label": "﻿독립운동",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "94",
 			"shape": "box",
 			"label": "﻿개혁사상 전파",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "95",
 			"shape": "box",
 			"label": "﻿항일운동의 기반",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "96",
 			"shape": "box",
 			"label": "﻿박해의 계기",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "97",
-			"shape": "box",
+			"shape": "circle",
 			"label": "학생",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "98",
 			"shape": "image",
-			"image": "../static/imgs/이겸라, 고영필.png",
+			"image": "../static/imgs/question.png",
 			"label": "﻿이겸라, 고영필",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "99",
 			"shape": "box",
 			"label": "﻿첫 학생",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "100",
 			"shape": "image",
 			"image": "../static/imgs/김소월.jpg",
 			"label": "김소월",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "101",
 			"shape": "image",
 			"image": "../static/Imgs/1925년 진달래꽃 시집.jpg",
 			"label": "1925년 진달래꽃 시집",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "102",
 			"shape": "box",
 			"label": "﻿나 보기가 역겨워 \n가실 때에는 \n말없이 고이 보내드리오리다. \n영변에 약산 \n진달래꽃, \n아름따다 가실 길에 뿌리오리다. \n가시는 걸음 걸음 \n놓인 그 꽃을 \n사뿐히 즈려밟고 가시옵소서 \n나 보기가 역겨워 \n가실 때에는 \n죽어도 아니 눈물 흘리오리다.",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "103",
 			"shape": "image",
 			"image": "../static/imgs/question.png",
 			"label": "﻿1925년 5월 [개벽]에 시론 '시혼' 발표",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "104",
 			"shape": "box",
 			"label": "﻿126편의 작품 수록",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "105",
 			"shape": "box",
 			"label": "﻿김소월의 전반기 작품경향을\n 드러내고 있으며 한국시단의\n 이정표 구실을 함",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "106",
 			"shape": "image",
 			"image": "../static/imgs/question.png",
 			"label": "﻿하늘의 옷감",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "107",
 			"shape": "box",
 			"label": "﻿내게 금빛과 은빛으로 수놓은 접상의 천이 있다면 \n밤과 낯과 황혼의 빛으로 물든 푸르고 어슴푸레하고 때로 어두운 천이 있다면 \n그 천을 그대 발밑에 깔아드리련만 \n나는 가난하여 가진 것이 꿈뿐이라 내 꿈을 그대 발밑에 깔았습니다. \n그대 밟은 것은 내 꿈이니 사뿐히 밟고 가소서 .",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "108",
 			"shape": "box",
 			"label": "﻿1922년 배재 고등 보통학교에\n 5학년에 편입",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "109",
 			"shape": "box",
 			"label": "﻿배재 교지에 시와 소설을, 싣고 편집.\n 이후 편집 후기 남김",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "110",
 			"shape": "image",
 			"image": "../static/imgs/이승만.jpg",
 			"label": "﻿이승만",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "111",
-			"shape": "box",
+			"shape": "circle",
 			"label": "선생님",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "112",
 			"shape": "image",
 			"image": "../static/imgs/주시경.jpg",
 			"label": "﻿주시경",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "113",
 			"shape": "image",
 			"image": "../static/imgs/친필 이력서.png",
 			"label": "﻿친필 이력서",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "114",
 			"shape": "box",
 			"label": "﻿배재학당 학생 출신",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "115",
 			"shape": "box",
 			"label": "﻿협성회보, 독립신문 편집 교정 참여",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "116",
 			"shape": "box",
 			"label": "﻿국어 연구자",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "117",
 			"shape": "box",
 			"label": "﻿우리말의 문법을 최초로 정립",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "118",
 			"shape": "box",
 			"label": "﻿국어를 통한 계몽운동",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "119",
 			"shape": "image",
 			"image": "../static/imgs/노블 선교사 가족.png",
 			"label": "﻿노블 선교사 가족",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "120",
 			"shape": "image",
 			"image": "../static/imgs/매티 윌칵스.jpg",
 			"label": "﻿매티 윌칵스",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "121",
 			"shape": "box",
 			"label": "﻿배재학당 최초 여교사",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "122",
 			"shape": "box",
 			"label": "﻿북한 최초의 여성교육기관 정진,\n 정의 학교 발전에 도움",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "123",
 			"shape": "box",
 			"label": "﻿주일학교 교사 양성 및 유년주일학교를 시작하여\n 주일 학교 운동 발전",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "124",
 			"shape": "box",
 			"label": "﻿1872~1956",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "125",
 			"shape": "image",
 			"image": "../static/imgs/윌리엄 아서 노블.jpg",
 			"label": "﻿윌리엄 아서 노블",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "126",
 			"shape": "box",
 			"label": "﻿이승만에게 영어 가르침",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "127",
 			"shape": "box",
 			"label": "﻿한국이름 : 노보을",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "128",
 			"shape": "box",
 			"label": "﻿1866~1956",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "129",
 			"shape": "box",
 			"label": "﻿와이오미신학교와 드루신학교 졸업",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "130",
 			"shape": "box",
 			"label": "﻿1896~ 평양에서 활동, 1933~ 서울에서 활동",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "131",
 			"shape": "image",
 			"image": "../static/imgs/헨리 다지 아펜잘러.jpg",
 			"label": "﻿헨리 다지 아펜잘러",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "132",
 			"shape": "box",
 			"label": "﻿1889년 11월 6일\n 서울 서대문구 정동 23번지에서 태어남",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "133",
 			"shape": "box",
 			"label": "노블 선교사의\n 맏딸 루스 노블과 결혼하여\n 1917년 내한",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "134",
 			"shape": "box",
 			"label": "﻿1920년 배재학당 교장 취임,\n 20년동안 일함 ",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "135",
 			"shape": "box",
 			"label": "﻿1940년 미국으로 돌아갔다가 \n1950년 6.25 전쟁때 한국사회 복구를 위해 \n다시 한국으로 돌아옴",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "136",
 			"shape": "box",
 			"label": "﻿1952년 11월\n 배재학교 재단 이사장으로 활동하던 중\n 건강 악화로 치료를 위해 \n미국으로 돌아감",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "137",
 			"shape": "box",
 			"label": "﻿1953년 12월 1일\n 64세로 별세",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "138",
 			"shape": "box",
 			"label": "﻿\"나의 뼈를 나의 고국이요 사랑인 한국 땅에 묻어달라\" \n라는 유언에 따라 1954년 10월 18일 화장된 유골을  \n한국 양화진 제 1묘역에 안장",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "139",
 			"shape": "image",
 			"image": "../static/imgs/헨리 다지 아펜잘러가 쓰던 책상과 타자기.jpg",
 			"label": "﻿헨리 다지 아펜잘러가 쓰던 \n책상과 타자기",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "140",
 			"shape": "image",
 			"image": "../static/imgs/앨리스 레베카 아펜잘러.jpg",
 			"label": "﻿딸 앨리스 레베카 아펜잘러",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "141",
 			"shape": "box",
 			"label": "﻿배재학당 교사, 이화여대 초대학장",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "142",
 			"shape": "box",
 			"label": "여성 교육 집중",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "143",
-			"shape": "box",
+			"shape": "circle",
 			"label": "생활",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "144",
 			"shape": "image",
 			"image": "../static/imgs/question.png",
 			"label": "교복",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "145",
 			"shape": "box",
 			"label": "﻿모자는 검은색의 둥근 모양으로\n 윗부분에 청홍색 선을 돌림",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "146",
 			"shape": "box",
 			"label": "﻿태극 상징",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "147",
 			"shape": "box",
 			"label": "﻿검정 양복에 옷소매 끝 부분과\n 앞자락 단과 바지의 좌우 겉 솔기에 \n청홍색 복선을 담",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "148",
 			"shape": "box",
 			"label": "﻿1897년부터 착용",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "149",
 			"shape": "image",
 			"image": "../static/imgs/교실.jpg",
 			"label": "﻿교실",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		},
 		{
 			"id": "150",
 			"shape": "image",
 			"image": "../static/imgs/기숙사.jpg",
 			"label": "﻿기숙사",
-			"hidden": true
+			"hidden": true,
+			"margin": 30
 		}
 	],
 	"links": [
 		{
 			"from": "1",
 			"to": "2",
-			"hidden": false
+			"hidden": false,
+			"color": "#fa9511",
+			"width":20
 		},
 		{
 			"from": "2",
 			"to": "3",
-			"hidden": false
+			"hidden": false,
+			"color": "#fa9511",
+			"width":20
 		},
 		{
 			"from": "3",
@@ -1102,17 +1268,23 @@
 		{
 			"from": "2",
 			"to": "35",
-			"hidden": false
+			"hidden": false,
+			"color": "#fa9511",
+			"width":20
 		},
 		{
 			"from": "35",
 			"to": "36",
-			"hidden": false
+			"hidden": false,
+			"color": "#fa9511",
+			"width":20
 		},
 		{
 			"from": "35",
 			"to": "37",
-			"hidden": false
+			"hidden": false,
+			"color": "#fa9511",
+			"width":20
 		},
 		{
 			"from": "37",

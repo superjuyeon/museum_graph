@@ -2,20 +2,20 @@
 <html lang="en">
 
 <head>
-
-  <style>
-  </style>
-
   <title>Network</title>
   <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
-
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
 </head>
 
-<body>
+<body id="mybody" style="background-color: rgb(241, 235, 210);">
 
 <!-- 버튼 -->
   <div id="btn_group">
@@ -23,9 +23,27 @@
     <button onclick="video_start()" id="test_btn2">수어 해설</button>
     <button id="background_change">배경색 변경</button>
   </div>
+  
+    <div style="width:70%; height:92%; float:left; ">
+      <div id="mynetwork"></div>    
+    </div>
 
-  <div id="mycontainer" style="width:100%; height:92%; float:left; background-color: rgb(241, 235, 210);">
-    <div id="mynetwork"></div>    
+    <div id="mychatcontainer" style="width: 29.85%; height:92%; float:right; border: 1px solid #102b6a;   margin-top: 4px;
+    ">
+      <article id="chat-container">
+        <div class="chat-thread">
+          <ul class="chat-list">
+            <li class="chatbot">
+              <span class="material-icons" style="color:black;">smart_toy</span>
+              모르는 단어를 검색하세요!
+            </li>
+          </ul>
+        </div>
+      <div class="chat-input">
+        <input type="text" id="question-text" placeholder="질문을 입력하세요.">
+        <button id="btn-question">질문하기</button>
+      </div>
+    </article>
   </div>
 
     <script type="text/javascript">
@@ -35,8 +53,8 @@
       var edges = null;
       var network = null;
       
-      var parentContainer = document.getElementById("mycontainer");
-            
+      var parentContainer = document.getElementById("mybody");
+
       function video_start() {
         document.getElementById("video_obj").play();
       }
@@ -84,8 +102,9 @@
                 
                 font: { 
                   color: "#000000",
-                  size: 100, 
-                  // multi:true,
+                  size: 60, 
+                  multi:true,
+          
                   
                 },             
               },
@@ -171,6 +190,41 @@
                 enabled: false,
               },
             };
+
+            var nodelist = data.nodes;
+            for (idx in node_list) {
+              if (node_list[idx].chapter1){
+                var targetNode = find_nodeObj(node_list[idx].id);
+                targetNode.hidden = false;
+                targetNode.color = { "border": "#fa9511",  "background": "#fdd9ab" };
+                targetNode.borderWidth = 5;
+                targetNode.shapeProperties = {"useBorderWithImage" : true};
+                if (targetNode.shape == "image") {
+                  targetNode.size = 150;
+                } 
+                nodes.update([targetNode]);
+                var items = find_toEdgeObj(node_list[idx].id);
+                if (items.length!=0) {
+                  for (idx in items) {
+                    targetId = items[idx].to;
+                    var targetNode2 = find_nodeObj(targetId);
+                    if (targetNode2.chapter1) {
+                      items[idx].color = "#fa9511";
+                      items[idx].width = 20;
+                      edges.update(items[idx]);
+                    }
+                    targetNode2.hidden = false;
+                    nodes.update([targetNode2]);
+                  }
+                }
+              }
+              if (idx == 0) {
+                var targetNode = find_nodeObj(node_list[idx].id);
+                targetNode.color = { "border": "#C788E6",  "background": "#D19DEA" };
+                nodes.update([targetNode]);
+              }
+            }
+
             network = new vis.Network(container, data, options);
             network.on("showPopup", function (params) {
               document.addEventListener('click', function (e) {
@@ -238,18 +292,89 @@
 
       document.getElementById("background_change").addEventListener("click",() => {
         console.log(parentContainer.style.backgroundColor)
-        if (parentContainer.style.backgroundColor == "rgb(241, 235, 210)"){
+        if (parentContainer.style.backgroundColor == "rgb(241, 235, 210)" ){
           parentContainer.style.backgroundColor = 'rgb(223, 239, 239)';
         }
         else{
           parentContainer.style.backgroundColor = 'rgb(241, 235, 210)';
         }
       })
+
+
+
     </script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+<script>
+  const answer = function(bot_answer){
+    var answer = bot_answer;
+    if(answer.length > 0){
+      $('.chat-list').append(`
+        <li class="chatbot">
+            <span class="material-icons" style="color:black;">smart_toy</span>
+            ${answer}
+        </li>
+        `)
+      $('#question-text').val('')     // 텍스트 입력창 내용 지우기
+    }
+    $(".chat-thread").animate({ scrollTop: $('.chat-list').height() }, 1000);
+  }
+
+  const question  = function() {
+      const question = $('#question-text').val();
+      console.log(question)
+      if (question.length > 0) {
+        $('.chat-list').append(`
+          <li class="me">
+            <span class="material-icons" style="color:black;">face</span>
+            ${question}
+          </li>
+        `)
+        $(".chat-thread").animate({scrollTop: $('.chat-list').height()}, 1000);
+      
+        $.ajax({
+        type: 'POST',
+        async: false,                              
+        url: '/get_answer',
+        data: {
+          'question_id': question
+        },
+        dataType: 'text',
+        success: function (result) {
+          console.log(result);
+          answer(result)
+        },
+        error: function (xtr, status, error) {
+          alert(xtr + ":" + status + ":" + error);
+        }
+
+      });
+
+      }
+
+    }
+
+
+  $('#btn-question').on({
+  click: question,
+  // mouseup: question,
+  keyup:function(key) {
+    if(key.keyCode==13) {
+      question()
+    }
+  }
+  });
+
+  $('#question-text').on({
+  keyup:function(key) {
+    if(key.keyCode==13) {
+      question()
+    }
+  }
+  });
+
+
+</script>
 </body>
-<!-- <div style="width:50%; height:92%; float:right; background-color: #dbedee;">
-  <video height=100% width=100% src="../static/imgs/no.mp4" id="video_obj" type="video/quicktime" controls></video>
-</div> -->
 
 </html>

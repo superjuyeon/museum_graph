@@ -3,6 +3,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  margin: 0;
 }
 
 #content {
@@ -54,15 +55,6 @@ h1 {
   background-color: skyblue;
 }
 
-
-.container {
-  position: relative;
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
-  
-}
-
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -73,7 +65,7 @@ h1 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 720px;
-  padding: 20px;
+  /* padding: 20px; */
   background: #ffffff;
 }
 
@@ -239,7 +231,7 @@ h1 {
   -moz-animation: show-chat-even 0.15s 1 ease-in;
   -webkit-animation: show-chat-even 0.15s 1 ease-in;
   float: left;
-  margin-left: 80px;
+  margin-left: 60px;
   background: #ffc990;
   color: black;
 }

@@ -1,0 +1,174 @@
+{
+	"nodes": [
+		{
+			"id": "10000",
+			"shape": "image",
+			"hidden": false,
+			"label": "설립자 헨리 게르하트 아펜젤러의 아들 헨리 다지 아펜젤러",
+			"image": "../static/imgs/헨리_다지_아펜젤러.jpg",
+			"question": false,
+			"margin": 30,
+			"title": "https://www.museum.go.kr/site/main/relic/search/view?relicId=4657"
+		},
+		{
+			"id": "10001",
+			"shape": "box",
+			"hidden": false,
+			"label": "그는 언제 어디서 태어났을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "10002",
+			"shape": "box",
+			"hidden": true,
+			"label": "헨리 다지 아펜젤러는 1889년 11월 6일 서울 서대문구 정동 23번지에서 태어났어요!",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "10003",
+			"shape": "box",
+			"hidden": false,
+			"label": "그는 어떻게 한국에 들어오게 되었을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "10004",
+			"shape": "image",
+			"hidden": true,
+			"label": "미국에서 대학 졸업 후 윌리엄 아서 노블 선교사의 딸 루스 노블과 결혼하여 1917년 내한하였어요!",
+			"image": "../static/imgs/헨리_다지_아펜젤러_결혼식.jpeg",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "10005",
+			"shape": "box",
+			"hidden": false,
+			"label": "배재학당에서 그는 어떤 역할을 맡았을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "10006",
+			"shape": "image",
+			"hidden": true,
+			"label": "1920년 배재학당 교장에 취임하여 20년 동안 재직하였어요! 이후 1940년 미국으로 돌아갔다가 6.25 전쟁 중 1950년 한국으로 돌아와서 배재학당 이사장으로 활동하였어요!",
+			"image": "../static/imgs/책상과_타자기.jpg",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "10007",
+			"shape": "box",
+			"hidden": false,
+			"label": "그의 생애 마지막은 어떻게 마무리되었을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "10008",
+			"shape": "box",
+			"hidden": true,
+			"label": "1952년 11월 건강 악화로 미국으로 돌아가 치료받다가 1953년 12월 1일 64세로 별세 했어요!",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "10009",
+			"shape": "box",
+			"hidden": true,
+			"label": "그의 묘가 한국에 안장되어있는데 왜일까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "10010",
+			"shape": "image",
+			"hidden": true,
+			"label": "\"나의 뼈를 나의 고국이요 사랑인 한국 땅에 묻어 달라\" 라는 그의 유언에 따라 1954년 10월 8일 화장된 그의 유골을 한국 양화진 제 1묘역에 안장하였어요!",
+			"image": "../static/imgs/헨리_다지_아펜젤러_묘.jpeg",
+			"question": false,
+			"margin": 30
+		}
+	],
+	"links": [
+		{
+			"from": "0",
+			"to": "10000",
+			"hidden": false
+		},
+		{
+			"from": "10000",
+			"to": "10001",
+			"hidden": false
+		},
+		{
+			"from": "10001",
+			"to": "10002",
+			"hidden": false
+		},
+		{
+			"from": "10000",
+			"to": "10003",
+			"hidden": false
+		},
+		{
+			"from": "10003",
+			"to": "10004",
+			"hidden": false
+		},
+		{
+			"from": "10000",
+			"to": "10005",
+			"hidden": false
+		},
+		{
+			"from": "10005",
+			"to": "10006",
+			"hidden": false
+		},
+		{
+			"from": "10000",
+			"to": "10007",
+			"hidden": false
+		},
+		{
+			"from": "10007",
+			"to": "10008",
+			"hidden": false
+		},
+		{
+			"from": "10008",
+			"to": "10009",
+			"hidden": false
+		},
+		{
+			"from": "10009",
+			"to": "10010",
+			"hidden": false
+		}
+	]
+}

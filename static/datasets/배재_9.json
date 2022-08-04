@@ -1,0 +1,111 @@
+{
+	"nodes": [
+		{
+			"id": "9000",
+			"shape": "image",
+			"hidden": false,
+			"label": "배재학당 피아노",
+			"image": "../static/imgs/배재학당_피아노.jpg",
+			"question": false,
+			"margin": 30,
+			"title": "https://www.museum.go.kr/site/main/relic/search/view?relicId=4657"
+		},
+		{
+			"id": "9001",
+			"shape": "box",
+			"hidden": false,
+			"label": "누가 언제 들여왔을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "9002",
+			"shape": "box",
+			"hidden": true,
+			"label": "헨리 다지 아펜젤러가 배재학당 대강당을 신축하면서 1932년~ 1933년경에 들여왔어요!",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "9003",
+			"shape": "box",
+			"hidden": false,
+			"label": "어느 회사에서 언제 제작했을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "9004",
+			"shape": "box",
+			"hidden": true,
+			"label": "독일 라이프치히의 블뤼트너(Bluthner)사에서 1911년에 제작했어요!",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "9005",
+			"shape": "box",
+			"hidden": false,
+			"label": "이 피아노는 어떤 역사적 가치를 가질까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "9006",
+			"shape": "box",
+			"hidden": true,
+			"label": "국내에 들어온 현존하는 가장 오래된 연주회용 피아노로 2011년 10월 7일 국가 등록 문화재로 인정되었어요!",
+			"question": false,
+			"margin": 30
+		}
+	],
+	"links": [
+		{
+			"from": "0",
+			"to": "9000",
+			"hidden": false
+		},
+		{
+			"from": "9000",
+			"to": "9001",
+			"hidden": false
+		},
+		{
+			"from": "9001",
+			"to": "9002",
+			"hidden": false
+		},
+		{
+			"from": "9000",
+			"to": "9003",
+			"hidden": false
+		},
+		{
+			"from": "9003",
+			"to": "9004",
+			"hidden": false
+		},
+		{
+			"from": "9000",
+			"to": "9005",
+			"hidden": false
+		},
+		{
+			"from": "9005",
+			"to": "9006",
+			"hidden": false
+		}
+	]
+}

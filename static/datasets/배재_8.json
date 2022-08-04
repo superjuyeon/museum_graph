@@ -1,0 +1,138 @@
+{
+	"nodes": [
+		{
+			"id": "8000",
+			"shape": "image",
+			"hidden": false,
+			"label": "배재학당의 설립자 헨리 게르하트 아펜젤러의 친필일기",
+			"image": "../static/imgs/친필일기.jpg",
+			"question": false,
+			"margin": 30,
+			"title": "https://www.museum.go.kr/site/main/relic/search/view?relicId=4657"
+		},
+		{
+			"id": "8001",
+			"shape": "box",
+			"hidden": false,
+			"label": "어느 기간동안 작성한 일기일까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "8002",
+			"shape": "box",
+			"hidden": true,
+			"label": "1896년부터 1900년경까지 작성한 일기에요!",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "8003",
+			"shape": "box",
+			"hidden": false,
+			"label": "이 친필일기에는 어떤 내용이 담겨있을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "8004",
+			"shape": "box",
+			"hidden": true,
+			"label": "당시 아펜젤러의 교육과 선교에 대한 고민 그리고 한국생활을 엿볼 수 있어요!",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "8005",
+			"shape": "box",
+			"hidden": true,
+			"label": "고종에게 배재학당 우물사용과 관련하여 올린 진정서에 대한 내용이 담겨있어요!",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "8006",
+			"shape": "box",
+			"hidden": true,
+			"label": "당시 감옥에 수감 중이던 이승만과 주고받은 서신에 대한 내용도 담겨있어요!",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "8007",
+			"shape": "box",
+			"hidden": true,
+			"label": "이승만은 어떤 이유로 감옥에 있었을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "8008",
+			"shape": "image",
+			"hidden": true,
+			"label": "이승만은 1899년 1월 9일에 박영효 일파와 함께 대한제국 고종 폐위 음모에 가담하였다는 혐의로 체포되어 5년 7개월동안 한성감옥에 투옥되었어요!",
+			"image": "../static/imgs/이승만감옥.jpeg",
+			"question": false,
+			"margin": 30
+		}
+	],
+	"links": [
+		{
+			"from": "0",
+			"to": "8000",
+			"hidden": false
+		},
+		{
+			"from": "8000",
+			"to": "8001",
+			"hidden": false
+		},
+		{
+			"from": "8001",
+			"to": "8002",
+			"hidden": false
+		},
+		{
+			"from": "8000",
+			"to": "8003",
+			"hidden": false
+		},
+		{
+			"from": "8003",
+			"to": "8004",
+			"hidden": false
+		},
+		{
+			"from": "8003",
+			"to": "8005",
+			"hidden": false
+		},
+		{
+			"from": "8003",
+			"to": "8006",
+			"hidden": false
+		},
+		{
+			"from": "8006",
+			"to": "8007",
+			"hidden": false
+		},
+		{
+			"from": "8007",
+			"to": "8008",
+			"hidden": false
+		}
+	]
+}

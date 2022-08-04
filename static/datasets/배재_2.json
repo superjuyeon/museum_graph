@@ -1,0 +1,467 @@
+{
+	"nodes": [
+		{
+			"id": "2000",
+			"shape": "image",
+			"hidden": false,
+			"label": "배재의 정치 교육 정신",
+			"image": "../static/imgs/독립신문.jpg",
+			"question": false,
+			"margin": 30,
+			"title": "https://www.museum.go.kr/site/main/relic/search/view?relicId=4657"
+		},
+		{
+			"id": "2001",
+			"shape": "box",
+			"hidden": false,
+			"label": "배재학당에서 진행한  정치 교육은 어떤 것들이 있을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "2002",
+			"shape": "box",
+			"hidden": true,
+			"label": "서재필, 윤치호 박사의  국회 제도에 대한 연설",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "2003",
+			"shape": "box",
+			"hidden": true,
+			"label": "서재필, 윤치호는  누구일까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "2004",
+			"shape": "image",
+			"hidden": true,
+			"label": "서재필(1863~1951)과 윤치호(1865~1945) 두 사람은  개화파의 막내들로서  10대 후반부터 일본 유학을 거쳤고,  1884년 갑신정변에 직간접적으로  참여했습니다.",
+			"image": "../static/imgs/교육자(서재필, 윤채호 박사).png",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "2005",
+			"shape": "box",
+			"hidden": true,
+			"label": "국가적인 문제에 대한  토론회 진행",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "2006",
+			"shape": "box",
+			"hidden": true,
+			"label": "국가적인 문제에 대한  토론회의 안건들은 어떤 것들이 있을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "2007",
+			"shape": "box",
+			"hidden": true,
+			"label": "1회 국문과 한문을 섞어 씀이 맞는가?  8회 노비를 해방해야하는가?  10회 회원들이 인민을 위해 가로에 나가 연설함이 맞는가?  30회 정부에서 인재를 뽑는 과거제도에 대하여  32회 개항을 많이 함이 나라에 유익한가에 대하여  ",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "2008",
+			"shape": "box",
+			"hidden": true,
+			"label": "협성회 조직",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "2009",
+			"shape": "box",
+			"hidden": true,
+			"label": "협성회에서는  무엇을 할까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "2010",
+			"shape": "box",
+			"hidden": true,
+			"label": "일주일에 한번 의회원 규칙을 공부하고  각색 문제를 내어 연설을 공부합니다.",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "2011",
+			"shape": "box",
+			"hidden": true,
+			"label": "협성회에의 임원들은 누가 있었을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "2012",
+			"shape": "box",
+			"hidden": true,
+			"label": "이승만, 양홍묵, 노병선, 주시경,  윤창열, 민찬호, 김연근, 김혁수,  이익채, 임인호 같은 사람들이  첫 협성회의 회원들입니다.",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "2013",
+			"shape": "box",
+			"hidden": true,
+			"label": "이승만은 누구일까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "2014",
+			"shape": "image",
+			"hidden": true,
+			"label": "이승만은 배재학당의 학생입니다.  대한민국의 개화파·독립운동가·언론인·정치인·교육자로,  대한민국 임시 정부 초대 대통령입니다. ",
+			"image": "../static/imgs/이승만.jpg",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "2015",
+			"shape": "box",
+			"hidden": true,
+			"label": "주시경은 누구일까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "2016",
+			"shape": "image",
+			"hidden": true,
+			"label": "주시경은 배재학당의 학생이자  선생님으로 국어 연구자 입니다.  국어를 통한 계몽운동을 했으며  우리말의 문법을 최초로 정립했습니다.",
+			"image": "../static/imgs/주시경.jpg",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "2017",
+			"shape": "box",
+			"hidden": true,
+			"label": "가두 연설",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "2018",
+			"shape": "box",
+			"hidden": true,
+			"label": "가두연설은 어떻게 이루어졌을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "2019",
+			"shape": "box",
+			"hidden": true,
+			"label": "협성회에서 토론을 한 주제를 가지고  길거리에서 가두 연설회를 열었습니다.  그러나 청중이 없어  회원들이 편을 나눠 일부러 싸움을 벌였습니다.  그러자 싸움을 구경하기 위해 사람들이 모여들었었으며,  회원들은 싸움을 가장한 난투극을 멈추고  대중을 상대로 열변을 토했습니다.  협성회의 가두 연설은 회를 거듭할수록  정치 연설로 발전해나갔습니다.",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "2020",
+			"shape": "box",
+			"hidden": false,
+			"label": "정치 교육을 왜 했을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "2021",
+			"shape": "box",
+			"hidden": true,
+			"label": "배재학당에서  불안정한 정치상황에 능동적으로 대처할 수 있는  인재를 기르기 위해서 입니다.",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "2022",
+			"shape": "box",
+			"hidden": true,
+			"label": "왜 당시에 정치 상황이  불안정했을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "2023",
+			"shape": "box",
+			"hidden": true,
+			"label": "당시는 조선에서  대한제국으로 넘어가는 과도기이며,  러시아와 일본이 한반도에 대해  야심을 가졌기 때문입니다.",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "2024",
+			"shape": "box",
+			"hidden": false,
+			"label": "배재학당 인쇄소에서는  어떤 것을 인쇄했을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "2025",
+			"shape": "image",
+			"hidden": true,
+			"label": "독립신문, 협성회보, 매일신문 그리고  배재학당의 교재를  출간했습니다. ",
+			"image": "../static/imgs/독립신문, 협성회보, 매일신문 사진.png",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "2026",
+			"shape": "box",
+			"hidden": true,
+			"label": "1889년에는 올링거(Ohlinger,F.)를 불러  활판소(活版所)를 관리하고  한글 활자를 주조하여  성서를 인쇄하였을 뿐 아니라  1897년에는 『조선 그리스도인의 회보』를  인쇄했습니다. ",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "2027",
+			"shape": "box",
+			"hidden": true,
+			"label": "올링거는 누구일까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "2028",
+			"shape": "box",
+			"hidden": true,
+			"label": "중국에서  오래 선교하던 선교사 입니다. ",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "2029",
+			"shape": "box",
+			"hidden": false,
+			"label": "배재학당이  항일 운동을 할 수 있는 기반은  무엇이였을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "2030",
+			"shape": "box",
+			"hidden": true,
+			"label": "아펜젤러의  자유, 민주, 민족주의 교육정신에 바탕을 두고  독립운동을 전개하였고  개혁사상을 전파하는데  중추적인 역할을 하였습니다.",
+			"question": false,
+			"margin": 30
+		}
+	],
+	"links": [
+		{
+			"from": "0",
+			"to": "2000",
+			"hidden": false
+		},
+		{
+			"from": "2000",
+			"to": "2001",
+			"hidden": false
+		},
+		{
+			"from": "2001",
+			"to": "2002",
+			"hidden": false
+		},
+		{
+			"from": "2002",
+			"to": "2003",
+			"hidden": false
+		},
+		{
+			"from": "2003",
+			"to": "2004",
+			"hidden": false
+		},
+		{
+			"from": "2001",
+			"to": "2005",
+			"hidden": false
+		},
+		{
+			"from": "2005",
+			"to": "2006",
+			"hidden": false
+		},
+		{
+			"from": "2006",
+			"to": "2007",
+			"hidden": false
+		},
+		{
+			"from": "2001",
+			"to": "2008",
+			"hidden": false
+		},
+		{
+			"from": "2008",
+			"to": "2009",
+			"hidden": false
+		},
+		{
+			"from": "2009",
+			"to": "2010",
+			"hidden": false
+		},
+		{
+			"from": "2008",
+			"to": "2011",
+			"hidden": false
+		},
+		{
+			"from": "2011",
+			"to": "2012",
+			"hidden": false
+		},
+		{
+			"from": "2012",
+			"to": "2013",
+			"hidden": false
+		},
+		{
+			"from": "2013",
+			"to": "2014",
+			"hidden": false
+		},
+		{
+			"from": "2012",
+			"to": "2015",
+			"hidden": false
+		},
+		{
+			"from": "2013",
+			"to": "2016",
+			"hidden": false
+		},
+		{
+			"from": "2001",
+			"to": "2017",
+			"hidden": false
+		},
+		{
+			"from": "2017",
+			"to": "2018",
+			"hidden": false
+		},
+		{
+			"from": "2018",
+			"to": "2019",
+			"hidden": false
+		},
+		{
+			"from": "2000",
+			"to": "2020",
+			"hidden": false
+		},
+		{
+			"from": "2020",
+			"to": "2021",
+			"hidden": false
+		},
+		{
+			"from": "2021",
+			"to": "2022",
+			"hidden": false
+		},
+		{
+			"from": "2022",
+			"to": "2023",
+			"hidden": false
+		},
+		{
+			"from": "2000",
+			"to": "2024",
+			"hidden": false
+		},
+		{
+			"from": "2024",
+			"to": "2025",
+			"hidden": false
+		},
+		{
+			"from": "2024",
+			"to": "2026",
+			"hidden": false
+		},
+		{
+			"from": "2026",
+			"to": "2027",
+			"hidden": false
+		},
+		{
+			"from": "2027",
+			"to": "2028",
+			"hidden": false
+		},
+		{
+			"from": "2000",
+			"to": "2029",
+			"hidden": false
+		},
+		{
+			"from": "2029",
+			"to": "2030",
+			"hidden": false
+		}
+	]
+}

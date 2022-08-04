@@ -1,0 +1,247 @@
+{
+	"nodes": [
+		{
+			"id": "4000",
+			"shape": "image",
+			"hidden": false,
+			"label": "진달래꽃",
+			"image": "../static/imgs/진달래꽃대문.jpg",
+			"question": false,
+			"margin": 30,
+			"title": "https://www.museum.go.kr/site/main/relic/search/view?relicId=4657"
+		},
+		{
+			"id": "4001",
+			"shape": "box",
+			"hidden": false,
+			"label": "진달래꽃 원문 보기",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "4002",
+			"shape": "image",
+			"hidden": true,
+			"label": "나 보기가 역겨워 가실 때에는\n말없이 고이 보내드리오리다\n영변에 약산 진달래꽃\n아름 따다 가실 길에 뿌리오리다\n가시는 걸음 걸음 놓인 그 꽃을\n사뿐히 즈려밟고 가시옵소서\n나 보기가 역겨워 가실 때에는\n죽어도 아니 눈물 흘리오리다",
+			"image": "../static/imgs/1925년 진달래꽃 시집.jpg",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "4003",
+			"shape": "box",
+			"hidden": false,
+			"label": "진달래꽃의 작가는 누구일까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "4004",
+			"shape": "image",
+			"hidden": true,
+			"label": "김소월입니다. 20살에 이 시를 지었습니다.",
+			"image": "../static/imgs/김소월.jpg",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "4005",
+			"shape": "box",
+			"hidden": true,
+			"label": "김소월은 누구일까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "4006",
+			"shape": "box",
+			"hidden": true,
+			"label": "김소월은 배재학당의 학생입니다. 1922년 배재 고등 보통학교 5학년에 편입했습니다.",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "4007",
+			"shape": "box",
+			"hidden": true,
+			"label": "김소월 시인의 다른 작품은 어떤 것이 있을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "4008",
+			"shape": "box",
+			"hidden": true,
+			"label": "못잊어 못 잊어 생각이 나겠지요, 그런대로 한세상 지내시구려, 사노라면 잊힐 날 있으리다. 못 잊어 생각이 나겠지요,\\그런대로 세월만 가라시구려, 못 잊어도 더러는 잊히오리다. 그러나 또 한끝 이렇지요, 그리워 살뜰히 못 잊는데, 어쩌면 생각이 떠지나요? ",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "4009",
+			"shape": "box",
+			"hidden": true,
+			"label": "김소월은 언제 태어났을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "4010",
+			"shape": "box",
+			"hidden": true,
+			"label": "김소월 시인은 1902년에 출생했습니다.",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "4011",
+			"shape": "box",
+			"hidden": false,
+			"label": "진달래꽃은 언제 만들어졌을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "4012",
+			"shape": "box",
+			"hidden": true,
+			"label": "1922년 7월 잡지 개벽에 실렸습니다.",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "4013",
+			"shape": "box",
+			"hidden": false,
+			"label": "김소월 시인의 생애 엿보기",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "4014",
+			"shape": "image",
+			"hidden": true,
+			"label": "십리역광장에 서 있는 김소월 시인의 ‘왕십리’ 시비",
+			"image": "../static/imgs/김소월시비.jpeg",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "4015",
+			"shape": "image",
+			"hidden": true,
+			"image": "../static/imgs/한국일보김소원.jpg",
+			"question": false,
+			"margin": 30
+		}
+	],
+	"links": [
+		{
+			"from": "0",
+			"to": "4000",
+			"hidden": false
+		},
+		{
+			"from": "4000",
+			"to": "4001",
+			"hidden": false
+		},
+		{
+			"from": "4001",
+			"to": "4002",
+			"hidden": false
+		},
+		{
+			"from": "4000",
+			"to": "4003",
+			"hidden": false
+		},
+		{
+			"from": "4003",
+			"to": "4004",
+			"hidden": false
+		},
+		{
+			"from": "4004",
+			"to": "4005",
+			"hidden": false
+		},
+		{
+			"from": "4005",
+			"to": "4006",
+			"hidden": false
+		},
+		{
+			"from": "4004",
+			"to": "4007",
+			"hidden": false
+		},
+		{
+			"from": "4007",
+			"to": "4008",
+			"hidden": false
+		},
+		{
+			"from": "4004",
+			"to": "4009",
+			"hidden": false
+		},
+		{
+			"from": "4009",
+			"to": "4010",
+			"hidden": false
+		},
+		{
+			"from": "4000",
+			"to": "4011",
+			"hidden": false
+		},
+		{
+			"from": "4011",
+			"to": "4012",
+			"hidden": false
+		},
+		{
+			"from": "4000",
+			"to": "4013",
+			"hidden": false
+		},
+		{
+			"from": "4013",
+			"to": "4014",
+			"hidden": false
+		},
+		{
+			"from": "4013",
+			"to": "4015",
+			"hidden": false
+		}
+	]
+}

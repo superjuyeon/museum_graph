@@ -1,0 +1,385 @@
+{
+	"nodes": [
+		{
+			"id": "7000",
+			"shape": "image",
+			"hidden": false,
+			"label": "노블 선교사 가족 이야기",
+			"image": "../static/imgs/7_노블선교사가족.jpg",
+			"question": false,
+			"margin": 30,
+			"title": "https://www.museum.go.kr/site/main/relic/search/view?relicId=4657"
+		},
+		{
+			"id": "7001",
+			"shape": "image",
+			"hidden": false,
+			"label": "남편 윌리엄 아서 노블에 대해 알아볼까요?",
+			"image": "../static/imgs/7_윌리엄아서노블.jpg",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "7002",
+			"shape": "box",
+			"hidden": true,
+			"label": "1866년 9월 13일 - 미국 펜실베니아에서 태어나 2개의 학교를 졸업한 똑부러진 신학도였답니다.",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "7003",
+			"shape": "box",
+			"hidden": true,
+			"label": "윌리엄 아서 노블이 다닌 학교는 어떤 곳일까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "7004",
+			"shape": "image",
+			"hidden": true,
+			"label": "와이오밍 신학교는 1884년에 설립된 펜실베니아 북동부의 와이오밍 계곡에 위치한 감리교 대학 준비 학교입니다. 그 당시에는 와이오밍 신학교가 있던 킹스톤은 시골 마을이었다고 해요.",
+			"image": "../static/imgs/7_목수홀.jpg",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "7005",
+			"shape": "image",
+			"hidden": true,
+			"label": "와이오밍 신학교를 졸업한 노블은 드류 신학교로 진학했어요. 드류 신학교는 1867년에 설립된 북부 뉴저지 주 매디슨에 있는 사립 감리교 학교 대학원입니다. 이 학교는 연합감리교회에 소속된 13개의 감리교 신학교 중 3번째로 오래됐다고 해요.",
+			"image": "../static/imgs/7_드류신학교.jpg",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "7006",
+			"shape": "box",
+			"hidden": true,
+			"label": "1892년 - 목사안수를 받고 메티 월칵스 노블과 결혼한 후 한국에 입국하여 3년 동안 배재학당의 교사로 재직하였어요.",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "7007",
+			"shape": "box",
+			"hidden": true,
+			"label": "1896년 - 아내와 함께 15년간 평양에서 선교활동을 하다가 서울로 이주하여 계속해서 선교활동을 이어갔고, 1933년에 은퇴하고 미국으로 돌아갔어요.",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "7008",
+			"shape": "box",
+			"hidden": true,
+			"label": "1945년 1월 6일 - 미국 캘리포니아 주 스톡턴에서 별세하였어요.",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "7009",
+			"shape": "box",
+			"hidden": true,
+			"label": "문학에 조예가 깊었던 노블은 정기간행지에 자신의 선교생활을 한국사에 녹여 체험적 소설을 연재했다고 해요.",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "7010",
+			"shape": "box",
+			"hidden": true,
+			"label": "어떤 책을 썼을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "7011",
+			"shape": "image",
+			"hidden": true,
+			"label": "<이화(Ewa, A Tale of Korea)> (1906년) 양반집 아들과 부잣집 계집종의 비극적 사랑을 다룬 소설",
+			"image": "../static/imgs/7_이화.jpg",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "7012",
+			"shape": "image",
+			"hidden": false,
+			"label": "아내 매티 월칵스에 대해 알아볼까요?",
+			"image": "../static/imgs/7_매티월콕스노블.jpg",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "7013",
+			"shape": "box",
+			"hidden": true,
+			"label": "1872년 - 미국 펜실베니아 주 월크스배러어에서 태어났어요.",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "7014",
+			"shape": "box",
+			"hidden": true,
+			"label": "1892년 - 와이오밍 신학교에서 만난 윌리엄 아서 노블과 결혼하였고, 남편을 따라 한국에 들어와 배재학당 최초의 여교사가 되었습니다.",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "7015",
+			"shape": "box",
+			"hidden": true,
+			"label": "어떤 활동을 했을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "7016",
+			"shape": "box",
+			"hidden": true,
+			"label": "북한 최초의 여성교육기관인 정진여학교, 정의여학교를 설립했어요. 정의여학교는 북한의 중등 여성교육을 담당한 대표적인 사립학교였어요.",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "7017",
+			"shape": "image",
+			"hidden": true,
+			"label": "1900년 평양 남산현 교회에서 주일학교 교사를 양성했어요. 1903년 유년주일학교를 시작하는 등 선교활동을 발전시켜 나갔어요.",
+			"image": "../static/imgs/7_남산현교회.png",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "7018",
+			"shape": "box",
+			"hidden": true,
+			"label": "1934년 - 은퇴한 남편과 함께 미국으로 돌아갔으며, 1956년 스톡턴의 한 요양원에서 별세하였어요.",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "7019",
+			"shape": "box",
+			"hidden": true,
+			"label": "매티 월칵스가 쓴 책은 어떤 것들이 있을까요?",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "7020",
+			"shape": "image",
+			"hidden": true,
+			"label": "<노블일지>는 구한말에서 일제 강점기까지 한국에서의 42년간의 생활을 빼곡히 기록한 일지예요. 미국 여선교사로서 목격한 한국근대사 이야기가 담겨있어요.",
+			"image": "../static/imgs/7_노블일지.jpg",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "7021",
+			"shape": "image",
+			"hidden": true,
+			"label": "<아모권면(兒母勸勉)>은 여인과 아이가 천시받고 남성과 어른 중심의 사회였던 구한말 시기에, 남녀노소를 막론하고 모두 소중한 존재이며 특히 어린아이는 하나님께서 주신 선물이므로 감사한 마음으로 잘 기를 것을 당부하면서, 자녀양육에 필요한 것들에 대해 구체적인 양육법을 제시한 책입니다.",
+			"image": "../static/imgs/7_아모권면.png",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "7022",
+			"shape": "box",
+			"hidden": false,
+			"label": "노블 선교사 관련 사진 더보기",
+			"color": {
+				"border": "#fa9511",
+				"background": "#fdd9ab"
+			},
+			"question": true,
+			"margin": 30
+		},
+		{
+			"id": "7023",
+			"shape": "image",
+			"hidden": true,
+			"label": "지게를 진 한국 소녁과 방문자들과 함께 한 평양에서의 노블 선교사",
+			"image": "../static/imgs/7_지게를진소년과노블선교사.jpg",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "7024",
+			"shape": "image",
+			"hidden": true,
+			"label": "평양 지역 한국인 설교자들과 함께 한 노블 선교사",
+			"image": "../static/imgs/7_평양지역선교사와함께한노블.jpg",
+			"question": false,
+			"margin": 30
+		},
+		{
+			"id": "7025",
+			"shape": "image",
+			"hidden": true,
+			"label": "모터사이클을 타고 서울 거리를 이동중인 노블(좌측)과 케이블 선교사",
+			"image": "../static/imgs/7_모터사이클노블.jpg",
+			"question": false,
+			"margin": 30
+		}
+	],
+	"links": [
+		{
+			"from": "0",
+			"to": "7000",
+			"hidden": false
+		},
+		{
+			"from": "7000",
+			"to": "7001",
+			"hidden": false
+		},
+		{
+			"from": "7001",
+			"to": "7002",
+			"hidden": false
+		},
+		{
+			"from": "7002",
+			"to": "7003",
+			"hidden": false
+		},
+		{
+			"from": "7003",
+			"to": "7004",
+			"hidden": false
+		},
+		{
+			"from": "7003",
+			"to": "7005",
+			"hidden": false
+		},
+		{
+			"from": "7001",
+			"to": "7006",
+			"hidden": false
+		},
+		{
+			"from": "7001",
+			"to": "7007",
+			"hidden": false
+		},
+		{
+			"from": "7001",
+			"to": "7008",
+			"hidden": false
+		},
+		{
+			"from": "7001",
+			"to": "7009",
+			"hidden": false
+		},
+		{
+			"from": "7009",
+			"to": "7010",
+			"hidden": false
+		},
+		{
+			"from": "7010",
+			"to": "7011",
+			"hidden": false
+		},
+		{
+			"from": "7000",
+			"to": "7012",
+			"hidden": false
+		},
+		{
+			"from": "7012",
+			"to": "7013",
+			"hidden": false
+		},
+		{
+			"from": "7012",
+			"to": "7014",
+			"hidden": false
+		},
+		{
+			"from": "7014",
+			"to": "7015",
+			"hidden": false
+		},
+		{
+			"from": "7015",
+			"to": "7016",
+			"hidden": false
+		},
+		{
+			"from": "7015",
+			"to": "7017",
+			"hidden": false
+		},
+		{
+			"from": "7012",
+			"to": "7018",
+			"hidden": false
+		},
+		{
+			"from": "7012",
+			"to": "7019",
+			"hidden": false
+		},
+		{
+			"from": "7019",
+			"to": "7020",
+			"hidden": false
+		},
+		{
+			"from": "7019",
+			"to": "7021",
+			"hidden": false
+		},
+		{
+			"from": "7000",
+			"to": "7022",
+			"hidden": false
+		},
+		{
+			"from": "7022",
+			"to": "7023",
+			"hidden": false
+		},
+		{
+			"from": "7022",
+			"to": "7024",
+			"hidden": false
+		},
+		{
+			"from": "7022",
+			"to": "7025",
+			"hidden": false
+		}
+	]
+}

@@ -15,10 +15,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "그는 언제 어디서 태어났을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -35,10 +32,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "그는 어떻게 한국에 들어오게 되었을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -56,10 +50,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "배재학당에서 그는 어떤 역할을 맡았을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -77,10 +68,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "그의 생애 마지막은 어떻게 마무리되었을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -97,10 +85,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "그의 묘가 한국에 안장되어있는데 왜일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},

@@ -2,9 +2,13 @@ import json
 from flask import Flask, render_template, request, url_for, redirect, session
 import logging
 from flask_fontawesome import FontAwesome
+import os
 
-a_json = open('static/datasets/배재_단어.json', encoding = 'utf-8')
+basedir = os.path.abspath(os.path.dirname(__file__))
+data_file = os.path.join(basedir, 'static/datasets/배재_단어.json')
+a_json = open(data_file, encoding = 'utf-8')
 new_dict = json.load(a_json)
+
 
 app = Flask(__name__, static_url_path='/static')
 fa = FontAwesome(app)

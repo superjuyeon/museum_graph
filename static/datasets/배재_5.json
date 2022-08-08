@@ -14,10 +14,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "배재학당은 한국 최초의 근대식 교육기관이었어요. 어떤 근대식 제도를 도입했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -34,10 +31,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "한국 최초의 학칙이라 남다를 것 같아요. 어떤 규칙이었는지 알아볼까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -62,10 +56,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "교복은 어떻게 생겼나요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -83,10 +74,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "배재학당은 한국 최초로 글로벌 교육을 진행했어요. 어떤 과목을 가르쳤을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -104,10 +92,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "전인교육이 무엇인가요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -142,10 +127,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "당시 배재학당 학생들의 학교 생활을 엿볼까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},

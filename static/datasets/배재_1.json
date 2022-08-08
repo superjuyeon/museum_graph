@@ -14,11 +14,8 @@
 			"id": "1001",
 			"shape": "box",
 			"hidden": false,
-			"label": "배재학당은 어떻게 설립되었을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓배재학당은 어떻게 설립되었을까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -34,11 +31,8 @@
 			"id": "1003",
 			"shape": "box",
 			"hidden": true,
-			"label": "아펜젤러는 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓아펜젤러는 누구일까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -55,11 +49,8 @@
 			"id": "1005",
 			"shape": "box",
 			"hidden": true,
-			"label": "아펜젤러는 언제 태어났을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓아펜젤러는 언제 태어났을까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -75,11 +66,8 @@
 			"id": "1007",
 			"shape": "box",
 			"hidden": true,
-			"label": "아펜젤러는 어떤 학교를 졸업했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓아펜젤러는 어떤 학교를 졸업했을까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -96,11 +84,8 @@
 			"id": "1009",
 			"shape": "box",
 			"hidden": true,
-			"label": "아펜젤러는 한국에서 어떤 생활을 했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓아펜젤러는 한국에서 어떤 생활을 했을까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -125,11 +110,8 @@
 			"id": "1012",
 			"shape": "box",
 			"hidden": true,
-			"label": "아펜젤러의 가족들은 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓아펜젤러의 가족들은 누구일까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -163,11 +145,8 @@
 			"id": "1016",
 			"shape": "box",
 			"hidden": true,
-			"label": "레베카 아펜젤러는 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓레베카 아펜젤러는 누구일까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -183,11 +162,8 @@
 			"id": "1018",
 			"shape": "box",
 			"hidden": true,
-			"label": "아펜젤러는 어떻게 생을 마감했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓아펜젤러는 어떻게 생을 마감했을까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -203,11 +179,8 @@
 			"id": "1020",
 			"shape": "box",
 			"hidden": true,
-			"label": "정동이 어디일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓정동이 어디일까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -224,11 +197,8 @@
 			"id": "1022",
 			"shape": "box",
 			"hidden": true,
-			"label": "스크랜턴이 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓스크랜턴이 누구일까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -245,11 +215,8 @@
 			"id": "1024",
 			"shape": "box",
 			"hidden": true,
-			"label": "배재학당의 첫학생은 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓배재학당의 첫학생은 누구일까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -265,11 +232,8 @@
 			"id": "1026",
 			"shape": "box",
 			"hidden": true,
-			"label": "어떻게 \"배재학당\"이라는 이름을 가지게 되었을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓어떻게 \"배재학당\"이라는 이름을 가지게 되었을까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -286,11 +250,8 @@
 			"id": "1028",
 			"shape": "box",
 			"hidden": true,
-			"label": "왜 현판을 하사했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓왜 현판을 하사했을까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -306,11 +267,8 @@
 			"id": "1030",
 			"shape": "box",
 			"hidden": false,
-			"label": "배재학당은 다른 교육기관과 무슨점이 달랐을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓배재학당은 다른 교육기관과 무슨점이 달랐을까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -326,11 +284,8 @@
 			"id": "1032",
 			"shape": "box",
 			"hidden": true,
-			"label": "어떻게 교육을 실행했을까요? ",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓어떻게 교육을 실행했을까요? ",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -347,11 +302,8 @@
 			"id": "1034",
 			"shape": "box",
 			"hidden": true,
-			"label": "학당훈은 무엇일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓학당훈은 무엇일까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -367,11 +319,8 @@
 			"id": "1036",
 			"shape": "box",
 			"hidden": true,
-			"label": "무슨 뜻 일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓무슨 뜻 일까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -387,11 +336,8 @@
 			"id": "1038",
 			"shape": "box",
 			"hidden": true,
-			"label": "이 학당훈의 의의는 무엇일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓이 학당훈의 의의는 무엇일까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -407,11 +353,8 @@
 			"id": "1040",
 			"shape": "box",
 			"hidden": true,
-			"label": "배재학당의 시설을 알아볼까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓배재학당의 시설을 알아볼까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -428,11 +371,8 @@
 			"id": "1042",
 			"shape": "box",
 			"hidden": true,
-			"label": "배재학당의 교육 목적은 무엇일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓배재학당의 교육 목적은 무엇일까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -448,11 +388,8 @@
 			"id": "1044",
 			"shape": "box",
 			"hidden": true,
-			"label": "배재학당의 교육 목적을 이렇게 정한 이유가 무엇일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"label": "❓배재학당의 교육 목적을 이렇게 정한 이유가 무엇일까요?",
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},

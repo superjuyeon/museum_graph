@@ -15,10 +15,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "누가 언제 들여왔을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -35,10 +32,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "어느 회사에서 언제 제작했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -55,10 +49,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "이 피아노는 어떤 역사적 가치를 가질까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},

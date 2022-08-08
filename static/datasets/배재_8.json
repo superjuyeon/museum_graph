@@ -15,10 +15,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "어느 기간동안 작성한 일기일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -35,10 +32,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "이 친필일기에는 어떤 내용이 담겨있을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -71,10 +65,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "이승만은 어떤 이유로 감옥에 있었을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},

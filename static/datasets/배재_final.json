@@ -23,10 +23,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "배재학당은 어떻게 설립되었을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -43,10 +40,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "아펜젤러는 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -64,10 +58,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "아펜젤러는 언제 태어났을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -84,10 +75,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "아펜젤러는 어떤 학교를 졸업했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -105,10 +93,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "아펜젤러는 한국에서 어떤 생활을 했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -134,10 +119,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "아펜젤러의 가족들은 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -172,10 +154,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "레베카 아펜젤러는 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -192,10 +171,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "아펜젤러는 어떻게 생을 마감했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -212,10 +188,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "정동이 어디일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -233,10 +206,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "스크랜턴이 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -254,10 +224,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "배재학당의 첫학생은 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -274,10 +241,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "어떻게 \"배재학당\"이라는 이름을 가지게 되었을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -295,10 +259,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "왜 현판을 하사했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -315,10 +276,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "배재학당은 다른 교육기관과 무슨점이 달랐을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -335,10 +293,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "어떻게 교육을 실행했을까요? ",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -356,10 +311,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "학당훈은 무엇일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -376,10 +328,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "무슨 뜻 일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -396,10 +345,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "이 학당훈의 의의는 무엇일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -416,10 +362,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "배재학당의 시설을 알아볼까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -437,10 +380,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "배재학당의 교육 목적은 무엇일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -457,10 +397,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "배재학당의 교육 목적을 이렇게 정한 이유가 무엇일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -486,10 +423,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "배재학당에서 진행한 정치 교육은 어떤 것들이 있을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -506,10 +440,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "서재필, 윤치호는 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -535,10 +466,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "국가적인 문제에 대한 토론회의 안건들은 어떤 것들이 있을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -563,10 +491,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "협성회에서는 무엇을 할까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -583,10 +508,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "협성회에의 임원들은 누가 있었을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -603,10 +525,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "이승만은 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -624,10 +543,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "주시경은 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -653,10 +569,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "가두연설은 어떻게 이루어졌을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -673,10 +586,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "정치 교육을 왜 했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -693,10 +603,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "왜 당시에 정치 상황이 불안정했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -713,10 +620,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "배재학당 인쇄소에서는 어떤 것을 인쇄했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -742,10 +646,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "올링거는 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -762,10 +663,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "배재학당이 항일 운동을 할 수 있는 기반은 무엇이였을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -791,10 +689,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "진달래꽃 원문 보기",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -812,10 +707,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "진달래꽃의 작가는 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -833,10 +725,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "김소월은 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -853,10 +742,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "김소월 시인의 다른 작품은 어떤 것이 있을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -873,10 +759,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "김소월은 언제 태어났을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -893,10 +776,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "진달래꽃은 언제 만들어졌을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -913,10 +793,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "김소월 시인의 생애 엿보기",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -950,10 +827,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "배재학당은 한국 최초의 근대식 교육기관이었어요. 어떤 근대식 제도를 도입했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -970,10 +844,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "한국 최초의 학칙이라 남다를 것 같아요. 어떤 규칙이었는지 알아볼까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -998,10 +869,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "교복은 어떻게 생겼나요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1019,10 +887,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "배재학당은 한국 최초로 글로벌 교육을 진행했어요. 어떤 과목을 가르쳤을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1040,10 +905,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "전인교육이 무엇인가요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1078,10 +940,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "당시 배재학당 학생들의 학교 생활을 엿볼까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1145,10 +1004,7 @@
 			"hidden": false,
 			"label": "남편 윌리엄 아서 노블에 대해 알아볼까요?",
 			"image": "../static/imgs/7_윌리엄아서노블.jpg",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1165,10 +1021,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "윌리엄 아서 노블이 다닌 학교는 어떤 곳일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1227,10 +1080,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "어떤 책을 썼을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1249,10 +1099,7 @@
 			"hidden": false,
 			"label": "아내 매티 월칵스에 대해 알아볼까요?",
 			"image": "../static/imgs/7_매티월콕스노블.jpg",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1277,10 +1124,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "어떤 활동을 했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1314,10 +1158,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "매티 월칵스가 쓴 책은 어떤 것들이 있을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1344,10 +1185,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "노블 선교사 관련 사진 더보기",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1392,10 +1230,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "어느 기간동안 작성한 일기일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1412,10 +1247,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "이 친필일기에는 어떤 내용이 담겨있을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1448,10 +1280,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "이승만은 어떤 이유로 감옥에 있었을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1478,10 +1307,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "누가 언제 들여왔을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1498,10 +1324,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "어느 회사에서 언제 제작했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1518,10 +1341,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "이 피아노는 어떤 역사적 가치를 가질까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1547,10 +1367,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "그는 언제 어디서 태어났을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1567,10 +1384,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "그는 어떻게 한국에 들어오게 되었을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1588,10 +1402,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "배재학당에서 그는 어떤 역할을 맡았을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1609,10 +1420,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "그의 생애 마지막은 어떻게 마무리되었을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -1629,10 +1437,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "그의 묘가 한국에 안장되어있는데 왜일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},

@@ -16,19 +16,38 @@
   {{ fontawesome_html() }}
 </head>
 
-<body id="mybody" style="background-color: rgb(241, 235, 210);">
+<body id="mybody" style="background-color: rgb(242, 230, 208);">
 
     
 
 <!-- 버튼 -->
   <div id="btn_group" style="margin-top: 5px;">
-    <button id="test_btn1">챗봇에게 물어보기</button>
-    <button onclick="video_start()" id="test_btn2">수어 해설</button>
-    <button id="background_change">배경색 변경</button>
+    <span> 해설문 번호 </span>
+    <ul id="descriptions">
+      <button id="btn-des1">1</button>
+      <button id="btn-des2">2</button>
+      <button id="btn-des4">4</button>
+      <button id="btn-des5">5</button>
+      <button id="btn-des7">7</button>
+      <button id="btn-des8">8</button>
+      <button id="btn-des9">9</button>
+      <button id="btn-des10">10</button>
+    </ul>
+    <span> 테스트 버튼 </span>
+    <ul>
+      <button onclick="video_start()" id="test_btn2">수어 해설</button>
+      <button id="background_change">배경색 변경</button>
+    </ul>
+
+
   </div>
   
-    <div class="networkcontainer" style="width:100%; height:92%; float:left;">
+      
+    <div class="networkcontainer">
       <div id="mynetwork"></div>    
+      <div class="float" >
+        <i class="fa fa-comment-dots fa-2x my-float"></i>
+      </div>
     </div>
 
     <div id="mychatcontainer" style="width: 30%; height:92%; float:right; border: 1px solid #102b6a; margin-top: 4px; display: none;" >
@@ -46,12 +65,11 @@
           <button id="btn-question">질문하기</button>
         </div>
       </article>
+      
+      
     </div>
     
-    <a href="#" class="float" >
-      <i class="fa fa-plus my-float" ></i>
-    </a>
-
+    
     <script type="text/javascript">
       var DIR = "img/soft-scraps-icons/";
       
@@ -65,9 +83,267 @@
         document.getElementById("video_obj").play();
       }
 
+      var DATA_DIR = "../static/datasets/" 
+      var data_path = DATA_DIR + "배재_1.json";
+
+      var options = {
+        groups: {
+          questions: {
+            color: { 
+              background: "#fdd9ab", 
+              border: "#fa9511",
+              // highlight: {
+              //   border: '#91BFA7',
+              //   background: '#A5D9BE',
+              // },
+            }
+          },
+        },
+        nodes: {
+          borderWidth: 2,
+          shapeProperties : {"useBorderWithImage" : true},
+          size: 200,
+          widthConstraint: { maximum: 1000 },
+          icon: {
+            color:'black',
+            size:100,
+            face: '"Font Awesome 5 Free"',
+            code: '\uf059'
+          },
+          color: {
+            border: "#736D63",
+            background: "#eae8e6",
+            highlight: {
+              border: '#D94339',
+              background: '#F28F88',
+            },
+            hover: {
+              border: '#D94339',
+              background: '#F28F88'
+            },
+          },
+          
+          font: { 
+            face: 'Pretendard-Regular',
+            color: "#2F2419",
+            size: 60, 
+            multi:true,
+            align : "left",
+          },             
+        },
+        edges: {
+          value: 1000,
+          arrows: {
+            to: {
+              enabled: true,
+              scaleFactor: 3,
+              type: "arrow"
+            }
+          },
+          endPointOffset: {
+            from: 0,
+            to: 0
+          },
+          color: {
+            color: '#a09991',
+            highlight: '#D94339',
+            hover: '#D94339',
+            inherit: 'from',
+            opacity: 1.0
+          }, 
+          font: {
+            multi:true,
+            color: '#fcfcfc',
+            size: 14, // px
+            face: 'arial',
+            background: 'none',
+            strokeWidth: 1, // px
+            strokeColor: '#ffffff',
+            align: 'horizontal',
+            vadjust: 0,
+            bold: {
+              color: '#fcfcfc',
+              size: 20, // px
+              face: 'arial',
+              vadjust: 1,
+              mod: 'bold'
+            },
+            ital: {
+              color: '#fcfcfc',
+              size: 14, // px
+              face: 'arial',
+              vadjust: 0,
+              mod: 'italic',
+            },
+            boldital: {
+              color: '#fcfcfc',
+              size: 14, // px
+              face: 'arial',
+              vadjust: 0,
+              mod: 'bold italic'
+            },
+            mono: {
+              color: '#fcfcfc',
+              size: 15, // px
+              face: 'courier new',
+              vadjust: 2,
+              mod: ''
+            }
+          },
+          length: 1000,
+          width: 2,
+          selectionWidth: 3
+
+        },
+        physics: 
+        {
+          // Even though it's disabled the options still apply to network.stabilize().
+          barnesHut: { gravitationalConstant: -4000 },
+          enabled: true,
+          stabilization: true,
+          solver: "repulsion",
+          repulsion: {
+            centralGravity: 0.0,
+            nodeDistance: 800, // Put more distance between the nodes.
+            springConstant: 0.1
+          },
+        },
+        interaction: { hover: true },
+        manipulation: {
+          enabled: false,
+        },
+      };
+      var options_2 = {
+        groups: {
+          questions: {
+            color: { 
+              background: "#A5D3D2", 
+              border: "#587070",
+              // highlight: {
+              //   border: '#AD7453',
+              //   background: '#FAAF84',
+              // }
+           }
+          },
+        },
+        nodes: {
+          borderWidth: 2,
+          shapeProperties : {"useBorderWithImage" : true},
+          size: 200,
+          widthConstraint: { maximum: 1000 },
+          icon: {
+            color:'black',
+            size:100,
+            face: '"Font Awesome 5 Free"',
+            code: '\uf059'
+          },
+
+          color: {
+            border: "#736D63",
+            background: "#eae8e6",
+            highlight: {
+              border: '#D94339',
+              background: '#F28F88',
+            },
+            hover: {
+              border: '#D94339',
+              background: '#F28F88'
+            },
+          },
+          
+          font: { 
+            face: 'Pretendard-Regular',
+            color: "#2F2419",
+            size: 60, 
+            multi:true,
+            align : "left",
+          },             
+        },
+        edges: {
+          value: 1000,
+          arrows: {
+            to: {
+              enabled: true,
+              scaleFactor: 3,
+              type: "arrow"
+            }
+          },
+          endPointOffset: {
+            from: 0,
+            to: 0
+          },
+          color: {
+            color: '#a09991',
+            highlight: '#D94339',
+            hover: '#D94339',
+            inherit: 'from',
+            opacity: 1.0
+          }, 
+          font: {
+            multi:true,
+            color: '#fcfcfc',
+            size: 14, // px
+            face: 'arial',
+            background: 'none',
+            strokeWidth: 1, // px
+            strokeColor: '#ffffff',
+            align: 'horizontal',
+            vadjust: 0,
+            bold: {
+              color: '#fcfcfc',
+              size: 20, // px
+              face: 'arial',
+              vadjust: 1,
+              mod: 'bold'
+            },
+            ital: {
+              color: '#fcfcfc',
+              size: 14, // px
+              face: 'arial',
+              vadjust: 0,
+              mod: 'italic',
+            },
+            boldital: {
+              color: '#fcfcfc',
+              size: 14, // px
+              face: 'arial',
+              vadjust: 0,
+              mod: 'bold italic'
+            },
+            mono: {
+              color: '#fcfcfc',
+              size: 15, // px
+              face: 'courier new',
+              vadjust: 2,
+              mod: ''
+            }
+          },
+          length: 1000,
+          width: 2,
+          selectionWidth: 3
+
+        },
+        physics: 
+        {
+          // Even though it's disabled the options still apply to network.stabilize().
+          barnesHut: { gravitationalConstant: -4000 },
+          enabled: true,
+          stabilization: true,
+          solver: "repulsion",
+          repulsion: {
+            centralGravity: 0.0,
+            nodeDistance: 800, // Put more distance between the nodes.
+            springConstant: 0.1
+          },
+        },
+        interaction: { hover: true },
+        manipulation: {
+          enabled: false,
+        },
+      };
+      
       // Called when the Visualization API is loaded.
-      function draw() {
-        var DATA = "../static/datasets/배재_1.json";
+      function draw(DATA) {
         fetch(DATA)
           .then((res) => res.json())
           .then((res) => {
@@ -88,116 +364,10 @@
               nodes: nodes,
               edges: edges,
             };
-            var options = {
-              nodes: {
-                borderWidth: 2,
-                shapeProperties : {"useBorderWithImage" : true},
-                size: 200,
-                widthConstraint: { maximum: 1000 },
-                color: {
-                  border: "#a09991",
-                  background: "#eae8e6",
-                  highlight: {
-                    border: '#d6acd6',
-                    background: '#eae8e6'
-                    
-                  },
-                  hover: {
-                    border: '#efdfef',
-                    background: '#efdfef'
-                  },
-                },
-                
-                font: { 
-                  color: "#000000",
-                  size: 60, 
-                  multi:true,
-                  align : "left",
-                },             
-              },
-              edges: {
-                value: 1000,
-                arrows: {
-                  to: {
-                    enabled: false,
-                    scaleFactor: 1,
-                    type: "arrow"
-                  }
-                },
-                endPointOffset: {
-                  from: 0,
-                  to: 0
-                },
-                color: {
-                  color: '#848484',
-                  highlight: '#e7cee7',
-                  hover: '#debdde',
-                  inherit: 'from',
-                  opacity: 1.0
-                }, 
-                font: {
-                  multi:true,
-                  color: '#fcfcfc',
-                  size: 14, // px
-                  face: 'arial',
-                  background: 'none',
-                  strokeWidth: 1, // px
-                  strokeColor: '#ffffff',
-                  align: 'horizontal',
-                  vadjust: 0,
-                  bold: {
-                    color: '#fcfcfc',
-                    size: 20, // px
-                    face: 'arial',
-                    vadjust: 1,
-                    mod: 'bold'
-                  },
-                  ital: {
-                    color: '#fcfcfc',
-                    size: 14, // px
-                    face: 'arial',
-                    vadjust: 0,
-                    mod: 'italic',
-                  },
-                  boldital: {
-                    color: '#fcfcfc',
-                    size: 14, // px
-                    face: 'arial',
-                    vadjust: 0,
-                    mod: 'bold italic'
-                  },
-                  mono: {
-                    color: '#fcfcfc',
-                    size: 15, // px
-                    face: 'courier new',
-                    vadjust: 2,
-                    mod: ''
-                  }
-                },
-                length: 1000,
-                width: 2,
-                selectionWidth: 3
+            // var options ...
 
-              },
-              physics: 
-              {
-                // Even though it's disabled the options still apply to network.stabilize().
-                barnesHut: { gravitationalConstant: -4000 },
-                enabled: true,
-                stabilization: true,
-                solver: "repulsion",
-                repulsion: {
-                  centralGravity: 0.0,
-                  nodeDistance: 800, // Put more distance between the nodes.
-                  springConstant: 0.1
-                },
-              },
-              interaction: { hover: true },
-              manipulation: {
-                enabled: false,
-              },
-            };
             network = new vis.Network(container, data, options);
+            
             network.on("showPopup", function (params) {
               document.addEventListener('click', function (e) {
                 if (e.ctrlKey) {
@@ -213,10 +383,63 @@
               });
 
             });
-            network.on("hoverNode", function (params) {
-              // network.setOptions({edges:{color:"black"}});
-              // options[edges] = { color: 'black'};
+
+
+            network.on("selectNode", function (params) {
+              var selectedNodeId = params.nodes[0];
+              var node = network.body.nodes[selectedNodeId];
+              console.log(selectedNodeId);
+              node.setOptions({
+                font: { 
+                  color: "#2F2419",
+                  size: 60, 
+                  multi:true,
+                  align : "left",
+                },          
+              });
             });
+
+            network.on("deselectNode", function (params) {
+              var deselectedNode = params.previousSelection.nodes[0];
+              // var node = network.body.nodes[deselectedNodeId];
+              // console.log(deselectedNodeId);
+              deselectedNode.setOptions({
+                font: {
+                  size: options.nodes.font.size,
+                  color: options.nodes.font.color
+                }
+              });
+            });
+            // network.on("hoverNode", function (params) {
+            //   // network.setOptions({edges:{color:"black"}});
+            //   // options[edges] = { color: 'black'};
+            //   console.log(params.node);
+            //   var hoveredNodeId = params.node;
+            //   var node = network.body.nodes[hoveredNodeId];
+
+            //   node.setOptions({
+            //     font: { 
+            //       color: "#ffffff",
+            //       size: 60, 
+            //       multi:true,
+            //       align : "left",
+            //     },          
+            //   });
+            // });
+            // network.on("blurNode", function (params) {
+            //   // network.setOptions({edges:{color:"black"}});
+            //   // options[edges] = { color: 'black'};
+            //   console.log(params.node);
+            //   var hoveredNodeId = params.node;
+            //   var node = network.body.nodes[hoveredNodeId];
+
+            //   node.setOptions({
+            //     font: { 
+            //       size: options.nodes.font.size,
+            //       color: options.nodes.font.color
+            //     },          
+            //   });
+            // });
 
             network.on("click", function (params) {
               const clickedNode = find_nodeObj(params.nodes[0]);
@@ -266,20 +489,43 @@
                 }
               }
             });
+
+
+            // document.getElementById("background_change").addEventListener("click",() => {
+            //   console.log(parentContainer.style.backgroundColor)
+            //   if (parentContainer.style.backgroundColor == "rgb(242, 230, 208)" ){
+            //     // blue version
+            //     parentContainer.style.backgroundColor = 'rgb(223, 239, 239)';
+            //     network.setOptions(options_2);
+            //   }
+            //   else{
+            //     // orange version
+            //     parentContainer.style.backgroundColor = 'rgb(242, 230, 208)';
+            //     network.setOptions(options);
+            //   }
+            // })
           });
       }
 
       window.addEventListener("load", () => {
-        draw();
+        draw(data_path);
       });
 
       document.getElementById("background_change").addEventListener("click",() => {
         console.log(parentContainer.style.backgroundColor)
-        if (parentContainer.style.backgroundColor == "rgb(241, 235, 210)" ){
+        if (parentContainer.style.backgroundColor == "rgb(242, 230, 208)" ){
+          // blue version
           parentContainer.style.backgroundColor = 'rgb(223, 239, 239)';
+          // network = new vis.Network(container, data, options);
+          // console.log(options_2)
+          network.setOptions(options_2);
+          network.redraw();
+          // console.log(nodes);
         }
         else{
-          parentContainer.style.backgroundColor = 'rgb(241, 235, 210)';
+          parentContainer.style.backgroundColor = 'rgb(242, 230, 208)';
+          network.setOptions(options);
+          network.redraw();
         }
       })
 
@@ -289,6 +535,17 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
 <script>
+
+$(document).ready(function() {
+  $("#descriptions button").each(function(idex, element){
+    this.addEventListener("click", (e) => {
+      des_num = $(this).text();
+      var DATA = "../static/datasets/배재_"+des_num+".json";  
+      draw(DATA);
+    });
+  })
+});
+
   const answer = function(bot_answer){
     var answer = bot_answer;
     if(answer.length > 0){
@@ -364,10 +621,12 @@
     if($('#mychatcontainer').css("display") == "none"){
       $('#mychatcontainer').show()
       $('.networkcontainer').width('69%');
+      $('.float').css('right','-93%'); 
     }
     else{
       $('#mychatcontainer').hide()
       $('.networkcontainer').width('100%');
+      $('.float').css('right','-95%');
     }
   })
   

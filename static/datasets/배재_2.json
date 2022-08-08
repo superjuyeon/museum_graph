@@ -15,10 +15,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "배재학당에서 진행한  정치 교육은 어떤 것들이 있을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -35,10 +32,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "서재필, 윤치호는  누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -64,10 +58,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "국가적인 문제에 대한  토론회의 안건들은 어떤 것들이 있을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -92,10 +83,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "협성회에서는  무엇을 할까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -112,10 +100,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "협성회에의 임원들은 누가 있었을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -132,10 +117,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "이승만은 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -153,10 +135,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "주시경은 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -182,10 +161,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "가두연설은 어떻게 이루어졌을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -202,10 +178,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "정치 교육을 왜 했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -222,10 +195,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "왜 당시에 정치 상황이  불안정했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -242,10 +212,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "배재학당 인쇄소에서는  어떤 것을 인쇄했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -271,10 +238,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "올링거는 누구일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -291,10 +255,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "배재학당이  항일 운동을 할 수 있는 기반은  무엇이였을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -389,7 +350,7 @@
 			"hidden": false
 		},
 		{
-			"from": "2013",
+			"from": "2015",
 			"to": "2016",
 			"hidden": false
 		},

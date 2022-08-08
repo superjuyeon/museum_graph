@@ -16,10 +16,7 @@
 			"hidden": false,
 			"label": "남편 윌리엄 아서 노블에 대해 알아볼까요?",
 			"image": "../static/imgs/7_윌리엄아서노블.jpg",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -36,10 +33,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "윌리엄 아서 노블이 다닌 학교는 어떤 곳일까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -98,10 +92,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "어떤 책을 썼을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -120,10 +111,7 @@
 			"hidden": false,
 			"label": "아내 매티 월칵스에 대해 알아볼까요?",
 			"image": "../static/imgs/7_매티월콕스노블.jpg",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -148,10 +136,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "어떤 활동을 했을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -185,10 +170,7 @@
 			"shape": "box",
 			"hidden": true,
 			"label": "매티 월칵스가 쓴 책은 어떤 것들이 있을까요?",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},
@@ -215,10 +197,7 @@
 			"shape": "box",
 			"hidden": false,
 			"label": "노블 선교사 관련 사진 더보기",
-			"color": {
-				"border": "#fa9511",
-				"background": "#fdd9ab"
-			},
+			"group": "questions",
 			"question": true,
 			"margin": 30
 		},

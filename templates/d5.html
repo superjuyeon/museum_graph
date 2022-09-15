@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Network</title>
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
+  {{ fontawesome_html() }}
+</head>
+
+<body id="mybody" style="background-color: rgb(242, 230, 208);">
+
+    
+
+<!-- 버튼 -->
+  <div id="btn_group" style="margin-top: 5px;">
+    <span> 해설문 번호 </span>
+    <ul id="descriptions">
+      <button id="btn-des1">1</button>
+      <button id="btn-des2">2</button>
+      <button id="btn-des4">4</button>
+      <button id="btn-des5">5</button>
+      <button id="btn-des7">7</button>
+      <button id="btn-des8">8</button>
+      <button id="btn-des9">9</button>
+      <button id="btn-des10">10</button>
+    </ul>
+    <span> 테스트 버튼 </span>
+    <ul>
+      <button onclick="video_start()" id="test_btn2">수어 해설</button>
+      <button id="background_change">배경색 변경</button>
+    </ul>
+
+
+  </div>
+  
+      
+    <div class="networkcontainer">
+      <div id="mynetwork"></div>    
+      <div class="float" >
+        <i class="fa fa-comment-dots fa-2x my-float"></i>
+      </div>
+    </div>
+
+    <div id="mychatcontainer" style="width: 30%; height:92%; float:right; border: 1px solid #102b6a; margin-top: 4px; display: none;" >
+      <article id="chat-container">
+        <div class="chat-thread">
+          <ul class="chat-list">
+            <li class="chatbot">
+              <span class="material-icons" style="color:black;">smart_toy</span>
+              모르는 단어를 검색하세요!
+            </li>
+          </ul>
+        </div>
+        <div class="chat-input">
+          <input type="text" id="question-text" placeholder="질문을 입력하세요.">
+          <button id="btn-question">질문하기</button>
+        </div>
+      </article>
+      
+      
+    </div>
+    
+    
+    <script type="text/javascript">
+      var DIR = "img/soft-scraps-icons/";
+      
+      var nodes = null;
+      var edges = null;
+      var network = null;
+      
+      var parentContainer = document.getElementById("mybody");
+
+      function video_start() {
+        document.getElementById("video_obj").play();
+      }
+
+      var DATA_DIR = "../static/datasets/" 
+      var data_path = DATA_DIR + "배재_5.json";
+
+      var options = {
+        groups: {
+          questions: {
+            color: { 
+              background: "#fdd9ab", 
+              border: "#fa9511",
+              // highlight: {
+              //   border: '#91BFA7',
+              //   background: '#A5D9BE',
+              // },
+            }
+          },
+        },
+        nodes: {
+          borderWidth: 2,
+          shapeProperties : {"useBorderWithImage" : true},
+          size: 200,
+          widthConstraint: { maximum: 1000 },
+          icon: {
+            color:'black',
+            size:100,
+            face: '"Font Awesome 5 Free"',
+            code: '\uf059'
+          },
+          color: {
+            border: "#736D63",
+            background: "#eae8e6",
+            highlight: {
+              border: '#D94339',
+              background: '#F28F88',
+            },
+            hover: {
+              border: '#D94339',
+              background: '#F28F88'
+            },
+          },
+          
+          font: { 
+            face: 'Pretendard-Regular',
+            color: "#2F2419",
+            size: 60, 
+            multi:true,
+            align : "left",
+          },             
+        },
+        edges: {
+          value: 1000,
+          arrows: {
+            to: {
+              enabled: true,
+              scaleFactor: 3,
+              type: "arrow"
+            }
+          },
+          endPointOffset: {
+            from: 0,
+            to: 0
+          },
+          color: {
+            color: '#a09991',
+            highlight: '#D94339',
+            hover: '#D94339',
+            inherit: 'from',
+            opacity: 1.0
+          }, 
+          font: {
+            multi:true,
+            color: '#fcfcfc',
+            size: 14, // px
+            face: 'arial',
+            background: 'none',
+            strokeWidth: 1, // px
+            strokeColor: '#ffffff',
+            align: 'horizontal',
+            vadjust: 0,
+            bold: {
+              color: '#fcfcfc',
+              size: 20, // px
+              face: 'arial',
+              vadjust: 1,
+              mod: 'bold'
+            },
+            ital: {
+              color: '#fcfcfc',
+              size: 14, // px
+              face: 'arial',
+              vadjust: 0,
+              mod: 'italic',
+            },
+            boldital: {
+              color: '#fcfcfc',
+              size: 14, // px
+              face: 'arial',
+              vadjust: 0,
+              mod: 'bold italic'
+            },
+            mono: {
+              color: '#fcfcfc',
+              size: 15, // px
+              face: 'courier new',
+              vadjust: 2,
+              mod: ''
+            }
+          },
+          length: 1000,
+          width: 2,
+          selectionWidth: 3
+
+        },
+        physics: 
+        {
+          // Even though it's disabled the options still apply to network.stabilize().
+          barnesHut: { gravitationalConstant: -4000 },
+          enabled: true,
+          stabilization: true,
+          solver: "repulsion",
+          repulsion: {
+            centralGravity: 0.0,
+            nodeDistance: 800, // Put more distance between the nodes.
+            springConstant: 0.1
+          },
+        },
+        interaction: { hover: true },
+        manipulation: {
+          enabled: false,
+        },
+      };
+      var options_2 = {
+        groups: {
+          questions: {
+            color: { 
+              background: "#A5D3D2", 
+              border: "#587070",
+              // highlight: {
+              //   border: '#AD7453',
+              //   background: '#FAAF84',
+              // }
+           }
+          },
+        },
+        nodes: {
+          borderWidth: 2,
+          shapeProperties : {"useBorderWithImage" : true},
+          size: 200,
+          widthConstraint: { maximum: 1000 },
+          icon: {
+            color:'black',
+            size:100,
+            face: '"Font Awesome 5 Free"',
+            code: '\uf059'
+          },
+
+          color: {
+            border: "#736D63",
+            background: "#eae8e6",
+            highlight: {
+              border: '#D94339',
+              background: '#F28F88',
+            },
+            hover: {
+              border: '#D94339',
+              background: '#F28F88'
+            },
+          },
+          
+          font: { 
+            face: 'Pretendard-Regular',
+            color: "#2F2419",
+            size: 60, 
+            multi:true,
+            align : "left",
+          },             
+        },
+        edges: {
+          value: 1000,
+          arrows: {
+            to: {
+              enabled: true,
+              scaleFactor: 3,
+              type: "arrow"
+            }
+          },
+          endPointOffset: {
+            from: 0,
+            to: 0
+          },
+          color: {
+            color: '#a09991',
+            highlight: '#D94339',
+            hover: '#D94339',
+            inherit: 'from',
+            opacity: 1.0
+          }, 
+          font: {
+            multi:true,
+            color: '#fcfcfc',
+            size: 14, // px
+            face: 'arial',
+            background: 'none',
+            strokeWidth: 1, // px
+            strokeColor: '#ffffff',
+            align: 'horizontal',
+            vadjust: 0,
+            bold: {
+              color: '#fcfcfc',
+              size: 20, // px
+              face: 'arial',
+              vadjust: 1,
+              mod: 'bold'
+            },
+            ital: {
+              color: '#fcfcfc',
+              size: 14, // px
+              face: 'arial',
+              vadjust: 0,
+              mod: 'italic',
+            },
+            boldital: {
+              color: '#fcfcfc',
+              size: 14, // px
+              face: 'arial',
+              vadjust: 0,
+              mod: 'bold italic'
+            },
+            mono: {
+              color: '#fcfcfc',
+              size: 15, // px
+              face: 'courier new',
+              vadjust: 2,
+              mod: ''
+            }
+          },
+          length: 1000,
+          width: 2,
+          selectionWidth: 3
+
+        },
+        physics: 
+        {
+          // Even though it's disabled the options still apply to network.stabilize().
+          barnesHut: { gravitationalConstant: -4000 },
+          enabled: true,
+          stabilization: true,
+          solver: "repulsion",
+          repulsion: {
+            centralGravity: 0.0,
+            nodeDistance: 800, // Put more distance between the nodes.
+            springConstant: 0.1
+          },
+        },
+        interaction: { hover: true },
+        manipulation: {
+          enabled: false,
+        },
+      };
+      
+      // Called when the Visualization API is loaded.
+      function draw(DATA) {
+        fetch(DATA)
+          .then((res) => res.json())
+          .then((res) => {
+            var node_list = res.nodes;
+            var edge_list = res.links;
+            nodes = new vis.DataSet(node_list);
+            edges = new vis.DataSet(edge_list);
+
+            function find_nodeObj(nodeId) {
+              return node_list.find(x => x.id == nodeId);   // 인접한 노드 찾기
+            }
+            function find_toEdgeObj(fromid) {
+              return edge_list.filter(x => x.from == fromid);
+            }
+
+            var container = document.getElementById("mynetwork");
+            var data = {
+              nodes: nodes,
+              edges: edges,
+            };
+            // var options ...
+
+            network = new vis.Network(container, data, options);
+            
+            network.on("showPopup", function (params) {
+              document.addEventListener('click', function (e) {
+                if (e.ctrlKey) {
+                  var node_list = data.nodes;
+                  for (idx in node_list) {
+                    if (node_list[idx].id == params) {
+                      // open url in 'title' attribute 
+                      window.open(node_list[idx].title);
+                    }
+                  }
+                  return;
+                }
+              });
+
+            });
+
+
+            network.on("selectNode", function (params) {
+              var selectedNodeId = params.nodes[0];
+              var node = network.body.nodes[selectedNodeId];
+              console.log(selectedNodeId);
+              node.setOptions({
+                font: { 
+                  color: "#2F2419",
+                  size: 60, 
+                  multi:true,
+                  align : "left",
+                },          
+              });
+            });
+
+            network.on("deselectNode", function (params) {
+              var deselectedNode = params.previousSelection.nodes[0];
+              // var node = network.body.nodes[deselectedNodeId];
+              // console.log(deselectedNodeId);
+              deselectedNode.setOptions({
+                font: {
+                  size: options.nodes.font.size,
+                  color: options.nodes.font.color
+                }
+              });
+            });
+            // network.on("hoverNode", function (params) {
+            //   // network.setOptions({edges:{color:"black"}});
+            //   // options[edges] = { color: 'black'};
+            //   console.log(params.node);
+            //   var hoveredNodeId = params.node;
+            //   var node = network.body.nodes[hoveredNodeId];
+
+            //   node.setOptions({
+            //     font: { 
+            //       color: "#ffffff",
+            //       size: 60, 
+            //       multi:true,
+            //       align : "left",
+            //     },          
+            //   });
+            // });
+            // network.on("blurNode", function (params) {
+            //   // network.setOptions({edges:{color:"black"}});
+            //   // options[edges] = { color: 'black'};
+            //   console.log(params.node);
+            //   var hoveredNodeId = params.node;
+            //   var node = network.body.nodes[hoveredNodeId];
+
+            //   node.setOptions({
+            //     font: { 
+            //       size: options.nodes.font.size,
+            //       color: options.nodes.font.color
+            //     },          
+            //   });
+            // });
+
+            network.on("click", function (params) {
+              const clickedNode = find_nodeObj(params.nodes[0]);
+              var items = find_toEdgeObj(params.nodes[0]);
+              if (items.length != 0) {
+                targetId = items[0].to;
+                console.log(items[0].from)
+                var targetNode = find_nodeObj(targetId);
+                if (targetNode.hidden) {   // case 1: 확장되지 않은 노드 -> 확장시킨다.
+                  for (idx in items) {
+                    targetId = items[idx].to; // 그 노드의 id 찾기
+                    var targetNode = find_nodeObj(targetId);
+                    targetNode.hidden = false;
+                    nodes.update([targetNode]);
+                    if (targetNode.question == false) {
+                      var items2 = find_toEdgeObj(targetId);
+                      if (items2.length!=0) {
+                        for (idx2 in items2) {
+                          targetId2 = items2[idx2].to;
+                          var targetNode2 = find_nodeObj(targetId2)
+                          targetNode2.hidden = false;
+                          nodes.update([targetNode2])
+                        }
+                      }
+                    }
+                  }
+                }
+                else {
+                  // case 2: 확장된 노드 -> 노드와 관련된 모든 하위 노드를 닫는다.
+                  recursiveClosingNode(params.nodes[0]);
+                }
+              }
+
+              function recursiveClosingNode(nodeId) {
+                var items = find_toEdgeObj(nodeId);
+                if (items.length != 0) {
+                  for (idx in items) {
+                    targetId = items[idx].to; // 그 노드의 id 찾기
+                    var targetNode = find_nodeObj(targetId);
+                    recursiveClosingNode(targetId);     // recursive function 위치는 여기에!!
+                    targetNode.hidden = true;
+                    nodes.update([targetNode]);
+                  }
+                }
+                else {
+                  return;
+                }
+              }
+            });
+
+
+            // document.getElementById("background_change").addEventListener("click",() => {
+            //   console.log(parentContainer.style.backgroundColor)
+            //   if (parentContainer.style.backgroundColor == "rgb(242, 230, 208)" ){
+            //     // blue version
+            //     parentContainer.style.backgroundColor = 'rgb(223, 239, 239)';
+            //     network.setOptions(options_2);
+            //   }
+            //   else{
+            //     // orange version
+            //     parentContainer.style.backgroundColor = 'rgb(242, 230, 208)';
+            //     network.setOptions(options);
+            //   }
+            // })
+          });
+      }
+
+      window.addEventListener("load", () => {
+        draw(data_path);
+      });
+
+      document.getElementById("background_change").addEventListener("click",() => {
+        console.log(parentContainer.style.backgroundColor)
+        if (parentContainer.style.backgroundColor == "rgb(242, 230, 208)" ){
+          // blue version
+          parentContainer.style.backgroundColor = 'rgb(223, 239, 239)';
+          // network = new vis.Network(container, data, options);
+          // console.log(options_2)
+          network.setOptions(options_2);
+          network.redraw();
+          // console.log(nodes);
+        }
+        else{
+          parentContainer.style.backgroundColor = 'rgb(242, 230, 208)';
+          network.setOptions(options);
+          network.redraw();
+        }
+      })
+
+
+
+    </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+<script>
+
+$(document).ready(function() {
+  $("#descriptions button").each(function(idex, element){
+    this.addEventListener("click", (e) => {
+      des_num = $(this).text();
+      var DATA = "../static/datasets/배재_"+des_num+".json";  
+      draw(DATA);
+    });
+  })
+});
+
+  const answer = function(bot_answer){
+    var answer = bot_answer;
+    if(answer.length > 0){
+      $('.chat-list').append(`
+        <li class="chatbot">
+            <span class="material-icons" style="color:black;">smart_toy</span>
+            ${answer}
+        </li>
+        `)
+      $('#question-text').val('')     // 텍스트 입력창 내용 지우기
+    }
+    $(".chat-thread").animate({ scrollTop: $('.chat-list').height() }, 1000);
+  }
+
+  const question  = function() {
+      const question = $('#question-text').val();
+      console.log(question)
+      if (question.length > 0) {
+        $('.chat-list').append(`
+          <li class="me">
+            <span class="material-icons" style="color:black;">face</span>
+            ${question}
+          </li>
+        `)
+        $(".chat-thread").animate({scrollTop: $('.chat-list').height()}, 1000);
+      
+        $.ajax({
+        type: 'POST',
+        async: false,                              
+        url: '/get_answer',
+        data: {
+          'question_id': question
+        },
+        dataType: 'text',
+        success: function (result) {
+          console.log(result);
+          answer(result)
+        },
+        error: function (xtr, status, error) {
+          answer('알 수 없는 단어입니다.')
+        }
+
+      });
+
+      }
+
+    }
+
+
+  $('#btn-question').on({
+  click: question,
+  // mouseup: question,
+  keyup:function(key) {
+    if(key.keyCode==13) {
+      question()
+    }
+  }
+  });
+
+  $('#question-text').on({
+  keyup:function(key) {
+    if(key.keyCode==13) {
+      question()
+    }
+  }
+  });
+
+
+
+
+  $('.float').click(function(){
+    console.log($('.float').css("display"));
+    if($('#mychatcontainer').css("display") == "none"){
+      $('#mychatcontainer').show()
+      $('.networkcontainer').width('69%');
+      $('.float').css('right','-93%'); 
+    }
+    else{
+      $('#mychatcontainer').hide()
+      $('.networkcontainer').width('100%');
+      $('.float').css('right','-95%');
+    }
+  })
+  
+
+</script>
+</body>
+
+</html>

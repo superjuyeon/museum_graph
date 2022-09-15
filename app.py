@@ -21,6 +21,34 @@ app.config['SESSION_TYPE'] = 'filesystem'
 def index():
     return render_template('main.html')
 
+@app.route('/d2', methods=['GET', 'POST'])
+def d2():
+    return render_template('d2.html')
+
+@app.route('/d4', methods=['GET', 'POST'])
+def d4():
+    return render_template('d4.html')
+
+@app.route('/d5', methods=['GET', 'POST'])
+def d5():
+    return render_template('d5.html')
+
+@app.route('/d7', methods=['GET', 'POST'])
+def d7():
+    return render_template('d7.html')
+
+@app.route('/d8', methods=['GET', 'POST'])
+def d8():
+    return render_template('d8.html')
+
+@app.route('/d9', methods=['GET', 'POST'])
+def d9():
+    return render_template('d9.html')
+
+@app.route('/d10', methods=['GET', 'POST'])
+def d10():
+    return render_template('d10.html')
+
 @app.route('/get_answer', methods=['GET', 'POST'])
 def get_answer():
     if request.method == 'POST':
